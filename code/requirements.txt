@@ -1,4 +1,6 @@
 pandas
 pymupdf
 nltk
-re
+requests
+stanza
+torch
