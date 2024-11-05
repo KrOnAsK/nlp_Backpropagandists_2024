@@ -4,3 +4,4 @@ nltk
 requests
 stanza
 torch
+tqdm
