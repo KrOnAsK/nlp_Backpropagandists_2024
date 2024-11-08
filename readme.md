@@ -1,20 +1,45 @@
-Which subtask do we use? 
--> Select subtask 2
-We divide the work into work packages and work through the packages one after the other.
-The deadline for all work packages is November 7, so that we can still talk to Varvara and have a buffer for improvements.
+# NLP Project
 
-Tasks up to the first milestone:
-- Preprocessing the data (see Lecture 1 Preprocessing)
-	* Reading in the files (Leon)
-	* Subsistions & groups (Niklas)
-	* Text segmentation (Jonas)
-	* Text normalization (Sergej)
-	* Lemmitization & stemming (Leon)
-	* Push to Connlu format (?)
-	* Documentation (Jonas)
-	* Code cleaning (Sergej)
-
-9 days until submission for 7-8 tasks. In order to finish as stress-free as possible, everyone should continue directly when the predecessor is finished.
+This repository contains code and data for a Natural Language Processing (NLP) project. The project includes Jupyter notebooks, configuration files, and various datasets for training and evaluation.
 
 
-Question to Varvara: What is a correct data format?
+### Prerequisites
+
+- Python 3.x
+- Jupyter Notebook
+- VS Code (optional)
+
+### Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/nlp-project.git
+    cd nlp-project
+    ```
+
+2. Install the required Python packages:
+    ```sh
+    pip install -r code/requirements.txt
+    ```
+
+### Usage
+
+1. Open the Jupyter notebook:
+    ```sh
+    jupyter notebook code/ms1_1.ipynb
+    ```
+
+2. Follow the instructions in the notebook to run the NLP tasks.
+
+### VS Code Workspace
+
+You can use the provided VS Code workspace configuration for an enhanced development experience. Open `nlp_ms1.code-workspace` in VS Code.
+
+## Data
+
+The `training_data_16_October_release` directory contains training data for various languages. The `CoNLL` directory contains output files in CoNLL format.
+
+
+## License
+
+This project is licensed under the MIT License.
