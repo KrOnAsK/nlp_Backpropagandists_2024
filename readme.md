@@ -43,3 +43,6 @@ The `training_data_16_October_release` directory contains training data for vari
 ## License
 
 This project is licensed under the MIT License.
+
+##
+JonasKruse and KrOnAsk are the same person, something went wrong with the user merging of GitHub accounts
