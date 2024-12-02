@@ -1,41 +1,49 @@
-import os
 from collections import Counter
 
-def read_conllu_files(directory):
-    all_text = ""
-    for filename in os.listdir(directory):
-        if filename.endswith('.conllu'):
-            with open(os.path.join(directory, filename), 'r', encoding='utf-8') as file:
-                all_text += file.read() + "\n\n"
-    return all_text
-
-def get_most_common_words(conllu_text, top_n=20):
-    sentences = conllu_text.strip().split('\n\n')
-    narratives = []
+def get_word_frequencies_per_narrative(filepath, top_n=20):
+    with open(filepath, 'r', encoding='utf-8') as file:
+        content = file.read()
+    
+    sentences = content.strip().split('\n\n')
+    word_frequencies = {}
+    current_narrative = []
+    
+    # Group sentences by narrative (look for text changes)
+    prev_text = None
+    narratives = {}
+    current_sentences = []
     
     for sentence in sentences:
         lines = sentence.split('\n')
-        for line in lines:
-            if line.startswith('# text ='):
-                text = line.replace('# text = ', '')
-                narratives.append(text)
-                break
+        text_line = next((line for line in lines if line.startswith('# text =')), None)
+        if text_line:
+            text = text_line.replace('# text = ', '')
+            if text != prev_text:
+                if prev_text:
+                    narratives[prev_text] = '\n\n'.join(current_sentences)
+                current_sentences = []
+                prev_text = text
+            current_sentences.append(sentence)
     
-    word_frequencies = {}
-    for narrative in narratives:
-        words = narrative.lower().split()
-        stop_words = {'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for',
-                     'is', 'are', 'was', 'were', 'will', 'be', 'have', 'has', 'had'}
-        words = [w for w in words if w not in stop_words and w.isalpha() and len(w) > 2]
-        counter = Counter(words)
-        word_frequencies[narrative[:50] + "..."] = counter.most_common(top_n)
-        
+    # Add last narrative
+    if prev_text:
+        narratives[prev_text] = '\n\n'.join(current_sentences)
+    
+    # Process each narrative
+    stop_words = {'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for',
+                 'is', 'are', 'was', 'were', 'will', 'be', 'have', 'has', 'had','say'}
+    
+    for text, narrative in narratives.items():
+        words = text.lower().split()
+        clean_words = [w for w in words if w not in stop_words and w.isalpha() and len(w) > 2]
+        counter = Counter(clean_words)
+        word_frequencies[text[:50] + "..."] = counter.most_common(top_n)
+    
     return word_frequencies
 
 # Usage
-directory = "./CoNLL"  # Replace with actual path
-conllu_text = read_conllu_files(directory)
-frequencies = get_most_common_words(conllu_text)
+filepath = "train.conllu"
+frequencies = get_word_frequencies_per_narrative(filepath)
 
 for narrative, words in frequencies.items():
     print(f"\nNarrative: {narrative}")
