@@ -1,7 +1,7 @@
 import os
 import random
 
-def combine_and_split_conllu(input_dir, train_file, test_file, test_size=0.2, random_seed=42):
+def combine_and_split_conllu(input_dir, train_file, test_file, test_size=0.3, random_seed=42):
     # Collect all sentences from all files
     all_sentences = []
     
