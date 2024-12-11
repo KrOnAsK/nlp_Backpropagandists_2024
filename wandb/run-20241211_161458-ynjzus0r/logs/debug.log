@@ -1,0 +1,23 @@
+2024-12-11 16:14:58,332 INFO    MainThread:16524 [wandb_setup.py:_flush():68] Current SDK version is 0.19.0
+2024-12-11 16:14:58,332 INFO    MainThread:16524 [wandb_setup.py:_flush():68] Configure stats pid to 16524
+2024-12-11 16:14:58,332 INFO    MainThread:16524 [wandb_setup.py:_flush():68] Loading settings from C:\Users\jonas\.config\wandb\settings
+2024-12-11 16:14:58,332 INFO    MainThread:16524 [wandb_setup.py:_flush():68] Loading settings from C:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\wandb\settings
+2024-12-11 16:14:58,332 INFO    MainThread:16524 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2024-12-11 16:14:58,332 INFO    MainThread:16524 [wandb_init.py:_log_setup():528] Logging user logs to C:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\wandb\run-20241211_161458-ynjzus0r\logs\debug.log
+2024-12-11 16:14:58,332 INFO    MainThread:16524 [wandb_init.py:_log_setup():529] Logging internal logs to C:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\wandb\run-20241211_161458-ynjzus0r\logs\debug-internal.log
+2024-12-11 16:14:58,334 INFO    MainThread:16524 [wandb_init.py:init():639] calling init triggers
+2024-12-11 16:14:58,334 INFO    MainThread:16524 [wandb_init.py:init():645] wandb.init called with sweep_config: {}
+config: {}
+2024-12-11 16:14:58,334 INFO    MainThread:16524 [wandb_init.py:init():688] starting backend
+2024-12-11 16:14:58,334 INFO    MainThread:16524 [wandb_init.py:init():692] sending inform_init request
+2024-12-11 16:14:58,477 INFO    MainThread:16524 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-12-11 16:14:58,478 INFO    MainThread:16524 [wandb_init.py:init():705] backend started and connected
+2024-12-11 16:14:58,479 INFO    MainThread:16524 [wandb_init.py:init():798] updated telemetry
+2024-12-11 16:14:58,544 INFO    MainThread:16524 [wandb_init.py:init():830] communicating run to backend with 90.0 second timeout
+2024-12-11 16:15:01,266 INFO    MainThread:16524 [wandb_init.py:init():882] starting run threads in backend
+2024-12-11 16:15:01,397 INFO    MainThread:16524 [wandb_run.py:_console_start():2443] atexit reg
+2024-12-11 16:15:01,398 INFO    MainThread:16524 [wandb_run.py:_redirect():2293] redirect: wrap_raw
+2024-12-11 16:15:01,398 INFO    MainThread:16524 [wandb_run.py:_redirect():2358] Wrapping output streams.
+2024-12-11 16:15:01,398 INFO    MainThread:16524 [wandb_run.py:_redirect():2383] Redirects installed.
+2024-12-11 16:15:01,402 INFO    MainThread:16524 [wandb_init.py:init():925] run started, returning control to user process
+2024-12-11 16:15:01,562 WARNING MsgRouterThr:16524 [router.py:message_loop():75] message_loop has been closed

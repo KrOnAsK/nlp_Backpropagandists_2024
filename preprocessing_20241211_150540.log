@@ -1,3 +1,0 @@
-2024-12-11 15:05:40,141 - __main__ - INFO - Loading initial data...
-2024-12-11 15:05:40,141 - modules.data_loader - ERROR - Error in load_initial_data: [Errno 2] No such file or directory: 'c:\\Users\\jonas\\OneDrive - TU Wien\\TU Wien\\1. Semester\\NLP\\nlp_Backpropagandists_2024\\code\\training_data_16_October_release/EN/subtask-2-annotations.txt'
-2024-12-11 15:05:40,141 - __main__ - ERROR - An error occurred during preprocessing: [Errno 2] No such file or directory: 'c:\\Users\\jonas\\OneDrive - TU Wien\\TU Wien\\1. Semester\\NLP\\nlp_Backpropagandists_2024\\code\\training_data_16_October_release/EN/subtask-2-annotations.txt'

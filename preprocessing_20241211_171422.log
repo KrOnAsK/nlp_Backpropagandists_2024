@@ -1,0 +1,25 @@
+2024-12-11 17:14:22,783 - __main__ - INFO - Loading initial data...
+2024-12-11 17:14:22,875 - __main__ - INFO - Loaded 198 documents
+2024-12-11 17:14:22,875 - __main__ - INFO - Tokenizing text...
+2024-12-11 17:14:24,416 - __main__ - INFO - Handling unusual sentences...
+2024-12-11 17:14:24,419 - __main__ - INFO - Normalizing text...
+2024-12-11 17:14:24,421 - modules.text_normalization - INFO - Using device: cpu
+2024-12-11 17:14:24,442 - stanza - INFO - Loading these models for language: en (English):
+=================================
+| Processor | Package           |
+---------------------------------
+| tokenize  | combined          |
+| lemma     | combined_nocharlm |
+=================================
+
+2024-12-11 17:14:24,445 - stanza - INFO - Using device: cpu
+2024-12-11 17:14:24,447 - stanza - INFO - Loading: tokenize
+2024-12-11 17:14:24,449 - stanza - INFO - Loading: lemma
+2024-12-11 17:14:24,535 - stanza - INFO - Done loading processors!
+2024-12-11 17:14:24,549 - modules.text_normalization - INFO - Starting processing of 198 rows in 4 batches
+2024-12-11 17:15:03,738 - __main__ - INFO - Preprocessing completed successfully
+2024-12-11 17:15:03,738 - __main__ - INFO - Starting BERT training...
+2024-12-11 17:15:05,980 - dl_methods.transformer - INFO - Created mapping for 69 unique narratives
+2024-12-11 17:15:05,989 - dl_methods.transformer - INFO - Created label mapping with 69 classes
+2024-12-11 17:15:05,995 - dl_methods.transformer - ERROR - Error in BERT training: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.
+2024-12-11 17:15:08,686 - __main__ - ERROR - An error occurred during preprocessing: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.

@@ -7,3 +7,9 @@ torch
 
 tqdm
 scikit-learn
+
+conllu  # for CoNLL-U parsing
+transformers  # for BERT
+
+wandb
+accelerate

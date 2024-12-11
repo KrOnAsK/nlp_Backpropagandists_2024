@@ -1,0 +1,3 @@
+2024-12-11 17:10:56,729 - dl_methods.transformer - INFO - Created mapping for 69 unique narratives
+2024-12-11 17:10:56,732 - dl_methods.transformer - INFO - Created label mapping with 69 classes
+2024-12-11 17:10:56,738 - dl_methods.transformer - ERROR - Error in BERT training: '<' not supported between instances of 'dict' and 'dict'
