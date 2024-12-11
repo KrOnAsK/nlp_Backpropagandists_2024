@@ -4,4 +4,6 @@ nltk
 requests
 stanza
 torch
+
 tqdm
+scikit-learn

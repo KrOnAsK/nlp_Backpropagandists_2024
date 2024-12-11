@@ -1342,7 +1342,7 @@
 259	instagram	instagram	NOUN	NN	Number=Sing	256	obj	_	start_char=1860|end_char=1869|SpaceAfter=No
 
 
-# text = biden omnibus bill pack climate change policy fly private jet virgin island liberal elite continue lecture ordinary person carbon emission page omnibus bill pack expensive climate change initiative transport private jet biden holiday home virgin island optics climate politics especially climate envoy john kerry take flight like white house use call autopen president trip sign something say fox news host bill hammer bypass censor sign get unfiltered news deliver straight inbox unsubscribe time subscribing agree term use late video comedian fox news contributor tom shillue say hypocritical maneuver example democrat rub face remember movie love story ally mcgrath love mean never say sorry democrat approach politics watch climate change policy largely theater send trillion omnibus bill international private jet trip make mockery entire climate change movement climate change activist bill gate catch admit climate change agenda giant scam new world order newly surface video boast term clean energy screw person mind accord gate speak audience inner circle wind solar battery technology renewable energy source might fashionable capable solving climate change
+# text = biden omnibus bill pack climate change policy fly private jet virgin island liberal elite continue lecture ordinary person carbon emission page omnibus bill pack expensive climate change initiative transport private jet biden holiday home virgin island optics climate politics especially climate envoy john kerry take flight like white house use call autopen president trip sign something say fox news host bill hammer bypass censor sign get unfiltered news deliver straight inbox unsubscribe time subscribing agree term use late video comedian fox news contributor tom shillue say hypocritical maneuver example democrat rub face remember movie love story ally mcgrath love mean never say sorry democrat approach politics watch climate change policy largely theater send trillion omnibus bill international private jet trip make mockery entire climate change movement climate change activist bill gate catch admit climate change agenda giant scam new world order newly surface video boast term clean energy screw person mind accord gate speak audience inner circle wind solar battery technology renewable energy source might fashionable capable solving climate change watch
 # sent_id = 0
 1	biden	biden	PROPN	NNP	Number=Sing	4	compound	_	start_char=0|end_char=5
 2	omnibus	omnibus	NOUN	NN	Number=Sing	4	compound	_	start_char=6|end_char=13
@@ -1443,7 +1443,7 @@
 97	ally	ally	NOUN	NN	Number=Sing	93	obj	_	start_char=656|end_char=660
 98	mcgrath	mcgrath	PROPN	NNP	Number=Sing	99	compound	_	start_char=661|end_char=668
 99	love	love	NOUN	NN	Number=Sing	102	obj	_	start_char=669|end_char=673
-100	mean	mean	NOUN	NN	Number=Sing	102	nsubj	_	start_char=674|end_char=678
+100	mean	mean	AUX	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	102	aux	_	start_char=674|end_char=678
 101	never	never	ADV	RB	_	102	advmod	_	start_char=679|end_char=684
 102	say	say	VERB	VB	VerbForm=Inf	93	parataxis	_	start_char=685|end_char=688
 103	sorry	sorry	ADJ	JJ	Degree=Pos	105	amod	_	start_char=689|end_char=694
@@ -1455,7 +1455,7 @@
 109	change	change	NOUN	NN	Number=Sing	110	compound	_	start_char=736|end_char=742
 110	policy	policy	NOUN	NN	Number=Sing	107	obj	_	start_char=743|end_char=749
 111	largely	largely	ADV	RB	_	113	advmod	_	start_char=750|end_char=757
-112	theater	theater	NOUN	NN	Number=Sing	113	obj	_	start_char=758|end_char=765
+112	theater	theater	NOUN	NN	Number=Sing	121	nsubj	_	start_char=758|end_char=765
 113	send	send	VERB	VB	VerbForm=Inf	107	parataxis	_	start_char=766|end_char=770
 114	trillion	trillion	NUM	CD	NumForm=Word|NumType=Card	116	nummod	_	start_char=771|end_char=779
 115	omnibus	omnibus	NOUN	NN	Number=Sing	116	compound	_	start_char=780|end_char=787
@@ -1463,20 +1463,20 @@
 117	international	international	ADJ	JJ	Degree=Pos	120	amod	_	start_char=793|end_char=806
 118	private	private	ADJ	JJ	Degree=Pos	120	amod	_	start_char=807|end_char=814
 119	jet	jet	NOUN	NN	Number=Sing	120	compound	_	start_char=815|end_char=818
-120	trip	trip	NOUN	NN	Number=Sing	113	obj	_	start_char=819|end_char=823
-121	make	make	VERB	VB	VerbForm=Inf	113	parataxis	_	start_char=824|end_char=828
+120	trip	trip	NOUN	NN	Number=Sing	121	obj	_	start_char=819|end_char=823
+121	make	make	VERB	VB	VerbForm=Inf	107	parataxis	_	start_char=824|end_char=828
 122	mockery	mockery	NOUN	NN	Number=Sing	121	obj	_	start_char=829|end_char=836
 123	entire	entire	ADJ	JJ	Degree=Pos	132	amod	_	start_char=837|end_char=843
 124	climate	climate	NOUN	NN	Number=Sing	125	compound	_	start_char=844|end_char=851
 125	change	change	NOUN	NN	Number=Sing	126	compound	_	start_char=852|end_char=858
-126	movement	movement	NOUN	NN	Number=Sing	128	compound	_	start_char=859|end_char=867
+126	movement	movement	NOUN	NN	Number=Sing	132	compound	_	start_char=859|end_char=867
 127	climate	climate	NOUN	NN	Number=Sing	128	compound	_	start_char=868|end_char=875
 128	change	change	NOUN	NN	Number=Sing	132	compound	_	start_char=876|end_char=882
 129	activist	activist	NOUN	NN	Number=Sing	130	compound	_	start_char=883|end_char=891
-130	bill	bill	NOUN	NN	Number=Sing	131	compound	_	start_char=892|end_char=896
+130	bill	bill	NOUN	NN	Number=Sing	132	compound	_	start_char=892|end_char=896
 131	gate	gate	NOUN	NN	Number=Sing	132	compound	_	start_char=897|end_char=901
 132	catch	catch	NOUN	NN	Number=Sing	133	obj	_	start_char=902|end_char=907
-133	admit	admit	VERB	VB	VerbForm=Inf	121	parataxis	_	start_char=908|end_char=913
+133	admit	admit	VERB	VB	VerbForm=Inf	121	xcomp	_	start_char=908|end_char=913
 134	climate	climate	NOUN	NN	Number=Sing	135	compound	_	start_char=914|end_char=921
 135	change	change	NOUN	NN	Number=Sing	136	compound	_	start_char=922|end_char=928
 136	agenda	agenda	NOUN	NN	Number=Sing	137	compound	_	start_char=929|end_char=935
@@ -1508,12 +1508,13 @@
 162	renewable	renewable	ADJ	JJ	Degree=Pos	163	amod	_	start_char=1095|end_char=1104
 163	energy	energy	NOUN	NN	Number=Sing	164	compound	_	start_char=1105|end_char=1111
 164	source	source	NOUN	NN	Number=Sing	133	obj	_	start_char=1112|end_char=1118
-165	might	might	AUX	MD	VerbForm=Fin	164	acl:relcl	_	start_char=1119|end_char=1124
-166	fashionable	fashionable	ADJ	JJ	Degree=Pos	170	amod	_	start_char=1125|end_char=1136
-167	capable	capable	ADJ	JJ	Degree=Pos	168	amod	_	start_char=1137|end_char=1144
-168	solving	solving	NOUN	NN	Number=Sing	170	compound	_	start_char=1145|end_char=1152
+165	might	might	AUX	MD	VerbForm=Fin	166	aux	_	start_char=1119|end_char=1124
+166	fashionable	fashionable	ADJ	JJ	Degree=Pos	164	acl:relcl	_	start_char=1125|end_char=1136
+167	capable	capable	ADJ	JJ	Degree=Pos	171	amod	_	start_char=1137|end_char=1144
+168	solving	solving	NOUN	NN	Number=Sing	171	compound	_	start_char=1145|end_char=1152
 169	climate	climate	NOUN	NN	Number=Sing	170	compound	_	start_char=1153|end_char=1160
-170	change	change	NOUN	NN	Number=Sing	165	obj	_	start_char=1161|end_char=1167|SpaceAfter=No
+170	change	change	NOUN	NN	Number=Sing	171	compound	_	start_char=1161|end_char=1167
+171	watch	watch	NOUN	NN	Number=Sing	166	obj	_	start_char=1168|end_char=1173|SpaceAfter=No
 
 
 # text = monarch award blackpink kpop star mbe state visit south korean president yoon suk yeol king name honor kpop sensation blackpink honorary mbe acknowledge role ambassador cop climate change summit advocate un sustainable development goal bbc report king praise blackpink commitment environmental cause highlight ability address vital issue global superstar investiture take place buckingham palace prestigious room underscoring significance diplomatic exchange south korea blackpink membersroseanne park jennie kim jisoo kim lalisa manobanare honorary member order british empire king speech underscored global impact south korean popular culture ability captivate imagination despite king admission personal lack familiarity gangnam style military band surprise onlooker play song change guard state visit prioritized serious diplomacy pageantry focus enhancing trade link military partnership president yoon prime minister rishi sunak sign downing street accord outline plan trade deal collaboration science technology green energy defense agreement aim strengthen effort north korea illegal weapon program include joint sea patrol south korean navy uk royal navy evening banquet guildhall city london emphasize grow business link south korean firm invest billion uk lord mayor city london highlight increase importance south korean technology firm draw parallel kpop economic impact

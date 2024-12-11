@@ -1947,7 +1947,7 @@
 348	member	member	NOUN	NN	Number=Sing	345	obj	_	start_char=2526|end_char=2532|SpaceAfter=No
 
 
-# text = nuclear war back table loading silver proudly repost publication originally release wealthresearchgroupcom wealth research group founder make portfolio visible result worldclass company reach new high make portfolio available access american interventionism dangerous bad alternative know bear summer world already escape nuclear holocaust number occasion big close call happen early one close sovietamerican thermonuclear war soviet officer deescalated event dub man save world stanislav petrov like incredible lucky story stanislav call duty last second officer originally assign shift sick suddenly screen fill notice nuclear warhead head soviet union unite state decide whether call moscow asap alert five minute entire country would obliterate something stop begin reasoning unite state start path nuclear war launch hundred missile decide hold learn station report anything subsequently learn new satellite detection system totally useless even flare cloud sun could make beep basically find late soviet air defens garbage actually fire instead hail deep think bear year stanislav petrov save world include parent russian nato member fight proxy war ukraine france ready send troops ukraine already instead country join nato essentially turn ukraine buffer zone russia rest europe president biden person one blocking wonder precious metal soar agree hedge fund manager overvalued courtesy zerohedgecom opinion gold overvalued fair price neighborhood whereas silver around next week biden realize france enter ukraine show washington play second fiddle emerge superpower europe washington stand gain much drastically shift policing world coalizing nation keep influence isolating bipartisan strategy happen headon confrontation france russia send human race back ww era submit french troops reinforce german polish italian one ukraine effect like berlin wall separate russia europe proper shaking head disbelief know carter term office cworth chip malfunction prompt screen show soviet warhead en route major american city five minute late carter notify minute away launch counterstrike operation room call say faulty chip yeah silver go high
+# text = nuclear war back table loading silver proudly repost publication originally release wealthresearchgroupcom wealth research group founder make portfolio visible result worldclass company reach new high make portfolio available access american interventionism dangerous bad alternative know bear summer world already escape nuclear holocaust number occasion big close call happen early one close sovietamerican thermonuclear war soviet officer deescalated event dub man save world stanislav petrov like incredible lucky story stanislav call duty last second officer originally assign shift sick suddenly screen fill notice nuclear warhead head soviet union unite state decide whether call moscow asap alert five minute entire country would obliterate something stop begin reasoning unite state start path nuclear war launch hundred missile decide hold learn station report anything subsequently learn new satellite detection system totally useless even flare cloud sun could make beep basically find late soviet air defens garbage actually fire instead hail deep think bear year stanislav petrov save world include parent russian nato member fight proxy war ukraine france ready send troops ukraine already instead country join nato essentially turn ukraine buffer zone russia rest europe president biden person one blocking wonder precious metal soar agree hedge fund manager overvalued courtesy zerohedgecom opinion gold overvalued fair price neighborhood whereas silver around next week biden realize france enter ukraine show washington play second fiddle emerge superpower europe washington stand gain much drastically shift policing world coalizing nation keep influence isolating bipartisan strategy happen headon confrontation france russia send human race back ww era submit french troops reinforce german polish italian one ukraine effect like berlin wall separate russia europe proper shaking head disbelief know carter term office cworth chip malfunction prompt screen show soviet warhead en route major american city five minute late carter notify minute away launch counterstrike operation room call say faulty chip yeah silver go high comment
 # sent_id = 0
 1	nuclear	nuclear	ADJ	JJ	Degree=Pos	2	amod	_	start_char=0|end_char=7
 2	war	war	NOUN	NN	Number=Sing	3	compound	_	start_char=8|end_char=11
@@ -1958,7 +1958,7 @@
 7	proudly	proudly	ADV	RB	_	8	advmod	_	start_char=38|end_char=45
 8	repost	repost	NOUN	NN	Number=Sing	9	compound	_	start_char=46|end_char=52
 9	publication	publication	NOUN	NN	Number=Sing	17	nsubj	_	start_char=53|end_char=64
-10	originally	originally	ADV	RB	_	17	advmod	_	start_char=65|end_char=75
+10	originally	originally	ADV	RB	_	11	advmod	_	start_char=65|end_char=75
 11	release	release	NOUN	NN	Number=Sing	16	compound	_	start_char=76|end_char=83
 12	wealthresearchgroupcom	wealthresearchgroupcom	PROPN	NNP	Number=Sing	13	compound	_	start_char=84|end_char=106
 13	wealth	wealth	NOUN	NN	Number=Sing	15	compound	_	start_char=107|end_char=113
@@ -1979,7 +1979,7 @@
 28	available	available	ADJ	JJ	Degree=Pos	29	amod	_	start_char=216|end_char=225
 29	access	access	NOUN	NN	Number=Sing	23	obj	_	start_char=226|end_char=232
 30	american	American	ADJ	JJ	Degree=Pos	31	amod	_	start_char=233|end_char=241
-31	interventionism	interventionism	NOUN	NN	Number=Sing	29	compound	_	start_char=242|end_char=257
+31	interventionism	interventionism	NOUN	NN	Number=Sing	32	compound	_	start_char=242|end_char=257
 32	dangerous	dangerous	ADJ	JJ	Degree=Pos	38	amod	_	start_char=258|end_char=267
 33	bad	bad	ADJ	JJ	Degree=Pos	38	amod	_	start_char=268|end_char=271
 34	alternative	alternative	ADJ	JJ	Degree=Pos	38	amod	_	start_char=272|end_char=283
@@ -2009,7 +2009,7 @@
 58	event	event	NOUN	NN	Number=Sing	60	compound	_	start_char=454|end_char=459
 59	dub	dub	NOUN	NN	Number=Sing	60	compound	_	start_char=460|end_char=463
 60	man	man	NOUN	NN	Number=Sing	64	compound	_	start_char=464|end_char=467
-61	save	save	ADJ	JJ	Degree=Pos	63	case	_	start_char=468|end_char=472
+61	save	save	VERB	VBN	VerbForm=Part	63	case	_	start_char=468|end_char=472
 62	world	world	NOUN	NN	Number=Sing	63	compound	_	start_char=473|end_char=478
 63	stanislav	stanislav	PROPN	NNP	Number=Sing	64	compound	_	start_char=479|end_char=488
 64	petrov	petrov	PROPN	NNP	Number=Sing	76	obl	_	start_char=489|end_char=495
@@ -2040,7 +2040,7 @@
 89	state	state	NOUN	NN	Number=Sing	90	nsubj	_	start_char=661|end_char=666
 90	decide	decide	VERB	VB	VerbForm=Inf	81	conj	_	start_char=667|end_char=673
 91	whether	whether	SCONJ	IN	_	101	mark	_	start_char=674|end_char=681
-92	call	call	NOUN	NN	Number=Sing	101	nsubj	_	start_char=682|end_char=686
+92	call	call	NOUN	NN	Number=Sing	99	compound	_	start_char=682|end_char=686
 93	moscow	moscow	PROPN	NNP	Number=Sing	99	compound	_	start_char=687|end_char=693
 94	asap	ASAP	ADJ	JJ	Degree=Pos	95	amod	_	start_char=694|end_char=698
 95	alert	alert	NOUN	NN	Number=Sing	99	compound	_	start_char=699|end_char=704
@@ -2082,7 +2082,7 @@
 131	cloud	cloud	NOUN	NN	Number=Sing	132	compound	_	start_char=957|end_char=962
 132	sun	sun	NOUN	NN	Number=Sing	134	nsubj	_	start_char=963|end_char=966
 133	could	could	AUX	MD	VerbForm=Fin	134	aux	_	start_char=967|end_char=972
-134	make	make	VERB	VB	VerbForm=Inf	122	ccomp	_	start_char=973|end_char=977
+134	make	make	VERB	VB	VerbForm=Inf	122	parataxis	_	start_char=973|end_char=977
 135	beep	beep	NOUN	NN	Number=Sing	134	obj	_	start_char=978|end_char=982
 136	basically	basically	ADV	RB	_	137	advmod	_	start_char=983|end_char=992
 137	find	find	VERB	VB	VerbForm=Inf	134	xcomp	_	start_char=993|end_char=997
@@ -2094,11 +2094,11 @@
 143	actually	actually	ADV	RB	_	146	advmod	_	start_char=1029|end_char=1037
 144	fire	fire	NOUN	NN	Number=Sing	137	obj	_	start_char=1038|end_char=1042
 145	instead	instead	ADV	RB	_	146	advmod	_	start_char=1043|end_char=1050
-146	hail	hail	VERB	VB	VerbForm=Inf	137	advcl	_	start_char=1051|end_char=1055
+146	hail	hail	VERB	VB	VerbForm=Inf	155	advcl	_	start_char=1051|end_char=1055
 147	deep	deep	ADJ	JJ	Degree=Pos	148	advmod	_	start_char=1056|end_char=1060
 148	think	think	VERB	VB	VerbForm=Inf	146	parataxis	_	start_char=1061|end_char=1066
 149	bear	bear	NOUN	NN	Number=Sing	150	compound	_	start_char=1067|end_char=1071
-150	year	year	NOUN	NN	Number=Sing	154	compound	_	start_char=1072|end_char=1076
+150	year	year	NOUN	NN	Number=Sing	152	compound	_	start_char=1072|end_char=1076
 151	stanislav	stanislav	PROPN	NNP	Number=Sing	154	compound	_	start_char=1077|end_char=1086
 152	petrov	petrov	PROPN	NNP	Number=Sing	154	compound	_	start_char=1087|end_char=1093
 153	save	save	VERB	VB	VerbForm=Inf	154	case	_	start_char=1094|end_char=1098
@@ -2120,7 +2120,7 @@
 169	already	already	ADV	RB	_	172	advmod	_	start_char=1197|end_char=1204
 170	instead	instead	ADV	RB	_	172	advmod	_	start_char=1205|end_char=1212
 171	country	country	NOUN	NN	Number=Sing	172	obj	_	start_char=1213|end_char=1220
-172	join	join	VERB	VB	VerbForm=Fin	166	advcl	_	start_char=1221|end_char=1225
+172	join	join	VERB	VB	VerbForm=Inf	166	advcl	_	start_char=1221|end_char=1225
 173	nato	nato	PROPN	NNP	Number=Sing	172	obj	_	start_char=1226|end_char=1230
 174	essentially	essentially	ADV	RB	_	175	advmod	_	start_char=1231|end_char=1242
 175	turn	turn	VERB	VB	VerbForm=Inf	172	conj	_	start_char=1243|end_char=1247
@@ -2158,13 +2158,13 @@
 207	next	next	ADJ	JJ	Degree=Pos	208	amod	_	start_char=1478|end_char=1482
 208	week	week	NOUN	NN	Number=Sing	205	nmod	_	start_char=1483|end_char=1487
 209	biden	biden	PROPN	NNP	Number=Sing	210	nsubj	_	start_char=1488|end_char=1493
-210	realize	realize	VERB	VB	VerbForm=Inf	203	acl	_	start_char=1494|end_char=1501
+210	realize	realize	VERB	VB	VerbForm=Inf	203	parataxis	_	start_char=1494|end_char=1501
 211	france	France	PROPN	NNP	Number=Sing	212	nsubj	_	start_char=1502|end_char=1508
 212	enter	enter	VERB	VB	VerbForm=Inf	210	ccomp	_	start_char=1509|end_char=1514
 213	ukraine	ukraine	PROPN	NNP	Number=Sing	214	compound	_	start_char=1515|end_char=1522
 214	show	show	NOUN	NN	Number=Sing	216	compound	_	start_char=1523|end_char=1527
 215	washington	washington	PROPN	NNP	Number=Sing	216	compound	_	start_char=1528|end_char=1538
-216	play	play	NOUN	NN	Number=Sing	212	obj	_	start_char=1539|end_char=1543
+216	play	play	NOUN	NN	Number=Sing	219	compound	_	start_char=1539|end_char=1543
 217	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	218	amod	_	start_char=1544|end_char=1550
 218	fiddle	fiddle	NOUN	NN	Number=Sing	212	obj	_	start_char=1551|end_char=1557
 219	emerge	emerge	VERB	VB	VerbForm=Inf	212	xcomp	_	start_char=1558|end_char=1564
@@ -2172,7 +2172,7 @@
 221	europe	Europe	PROPN	NNP	Number=Sing	223	compound	_	start_char=1576|end_char=1582
 222	washington	washington	PROPN	NNP	Number=Sing	223	compound	_	start_char=1583|end_char=1593
 223	stand	stand	NOUN	NN	Number=Sing	224	nsubj	_	start_char=1594|end_char=1599
-224	gain	gain	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	210	ccomp	_	start_char=1600|end_char=1604
+224	gain	gain	VERB	VBP	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	210	ccomp	_	start_char=1600|end_char=1604
 225	much	much	ADV	RB	_	226	advmod	_	start_char=1605|end_char=1609
 226	drastically	drastically	ADV	RB	_	228	advmod	_	start_char=1610|end_char=1621
 227	shift	shift	NOUN	NN	Number=Sing	228	compound	_	start_char=1622|end_char=1627
@@ -2190,7 +2190,7 @@
 239	confrontation	confrontation	NOUN	NN	Number=Sing	241	compound	_	start_char=1719|end_char=1732
 240	france	France	PROPN	NNP	Number=Sing	241	compound	_	start_char=1733|end_char=1739
 241	russia	russia	PROPN	NNP	Number=Sing	242	nsubj	_	start_char=1740|end_char=1746
-242	send	send	VERB	VB	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	232	parataxis	_	start_char=1747|end_char=1751
+242	send	send	VERB	VB	Mood=Ind|Person=3|VerbForm=Fin	237	parataxis	_	start_char=1747|end_char=1751
 243	human	human	ADJ	JJ	Degree=Pos	244	amod	_	start_char=1752|end_char=1757
 244	race	race	NOUN	NN	Number=Sing	242	obj	_	start_char=1758|end_char=1762
 245	back	back	ADV	RB	_	248	advmod	_	start_char=1763|end_char=1767
@@ -2216,13 +2216,13 @@
 265	shaking	shaking	NOUN	NN	Number=Sing	267	amod	_	start_char=1894|end_char=1901
 266	head	head	NOUN	NN	Number=Sing	267	compound	_	start_char=1902|end_char=1906
 267	disbelief	disbelief	NOUN	NN	Number=Sing	257	nmod	_	start_char=1907|end_char=1916
-268	know	know	VERB	VB	Mood=Ind|VerbForm=Fin	274	amod	_	start_char=1917|end_char=1921
+268	know	know	VERB	VB	Mood=Ind|VerbForm=Fin	257	parataxis	_	start_char=1917|end_char=1921
 269	carter	carter	NOUN	NN	Number=Sing	271	compound	_	start_char=1922|end_char=1928
 270	term	term	NOUN	NN	Number=Sing	271	compound	_	start_char=1929|end_char=1933
 271	office	office	NOUN	NN	Number=Sing	274	compound	_	start_char=1934|end_char=1940
 272	cworth	cworth	NOUN	NN	Number=Sing	274	compound	_	start_char=1941|end_char=1947
 273	chip	chip	NOUN	NN	Number=Sing	274	compound	_	start_char=1948|end_char=1952
-274	malfunction	malfunction	NOUN	NN	Number=Sing	257	nmod	_	start_char=1953|end_char=1964
+274	malfunction	malfunction	NOUN	NN	Number=Sing	268	obj	_	start_char=1953|end_char=1964
 275	prompt	prompt	ADJ	JJ	Degree=Pos	277	amod	_	start_char=1965|end_char=1971
 276	screen	screen	NOUN	NN	Number=Sing	277	compound	_	start_char=1972|end_char=1978
 277	show	show	NOUN	NN	Number=Sing	281	compound	_	start_char=1979|end_char=1983
@@ -2232,26 +2232,27 @@
 281	route	route	NOUN	NN	Number=Sing	274	appos	_	start_char=2002|end_char=2007
 282	major	major	ADJ	JJ	Degree=Pos	284	amod	_	start_char=2008|end_char=2013
 283	american	American	ADJ	JJ	Degree=Pos	284	amod	_	start_char=2014|end_char=2022
-284	city	city	NOUN	NN	Number=Sing	290	compound	_	start_char=2023|end_char=2027
+284	city	city	NOUN	NN	Number=Sing	286	compound	_	start_char=2023|end_char=2027
 285	five	five	NUM	CD	NumForm=Word|NumType=Card	286	nummod	_	start_char=2028|end_char=2032
-286	minute	minute	NOUN	NN	Number=Sing	288	compound	_	start_char=2033|end_char=2039
+286	minute	minute	NOUN	NN	Number=Sing	281	compound	_	start_char=2033|end_char=2039
 287	late	late	ADJ	JJ	Degree=Pos	288	amod	_	start_char=2040|end_char=2044
 288	carter	carter	NOUN	NN	Number=Sing	290	compound	_	start_char=2045|end_char=2051
 289	notify	notify	NOUN	NN	Number=Sing	290	compound	_	start_char=2052|end_char=2058
 290	minute	minute	NOUN	NN	Number=Sing	291	obl:npmod	_	start_char=2059|end_char=2065
 291	away	away	ADV	RB	_	292	advmod	_	start_char=2066|end_char=2070
-292	launch	launch	NOUN	NN	Number=Sing	293	compound	_	start_char=2071|end_char=2077
+292	launch	launch	NOUN	NN	Number=Sing	296	compound	_	start_char=2071|end_char=2077
 293	counterstrike	counterstrike	NOUN	NN	Number=Sing	294	compound	_	start_char=2078|end_char=2091
 294	operation	operation	NOUN	NN	Number=Sing	295	compound	_	start_char=2092|end_char=2101
 295	room	room	NOUN	NN	Number=Sing	296	compound	_	start_char=2102|end_char=2106
 296	call	call	NOUN	NN	Number=Sing	281	appos	_	start_char=2107|end_char=2111
 297	say	say	VERB	VB	VerbForm=Inf	296	acl	_	start_char=2112|end_char=2115
 298	faulty	faulty	ADJ	JJ	Degree=Pos	299	amod	_	start_char=2116|end_char=2122
-299	chip	chip	NOUN	NN	Number=Sing	297	obj	_	start_char=2123|end_char=2127
-300	yeah	yeah	INTJ	UH	_	302	discourse	_	start_char=2128|end_char=2132
-301	silver	silver	NOUN	NN	Number=Sing	302	nsubj	_	start_char=2133|end_char=2139
-302	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	296	acl:relcl	_	start_char=2140|end_char=2142
-303	high	high	ADJ	JJ	Degree=Pos	302	xcomp	_	start_char=2143|end_char=2147|SpaceAfter=No
+299	chip	chip	NOUN	NN	Number=Sing	304	compound	_	start_char=2123|end_char=2127
+300	yeah	yeah	INTJ	UH	_	304	discourse	_	start_char=2128|end_char=2132
+301	silver	silver	NOUN	NN	Number=Sing	302	compound	_	start_char=2133|end_char=2139
+302	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	304	compound	_	start_char=2140|end_char=2142
+303	high	high	ADJ	JJ	Degree=Pos	304	amod	_	start_char=2143|end_char=2147
+304	comment	comment	NOUN	NN	Number=Sing	296	appos	_	start_char=2148|end_char=2155|SpaceAfter=No
 
 
 # text = russia want un probe nord stream gas pipeline explosion moscow russia ask un security council investigation nord stream gas pipeline explosion september last year blame russian parliament committee international relation introduce motion regard expect get approval state duma late week proposal say accord report tass proposal call baltic sea pipeline blast act international terrorism monstrous sabotage seek unite nation hold accountable give order explosion carry criminal act threaten security eurasia proposal state give reference report american investigative journalist seymour hersh lawmaker blame president joe biden administration say give illegal order bear full responsibility multibilliondollar damage infrastructure russia germany france netherlands miss plant explosive along nord stream gas pipeline biden supervision claim seymour hersh describe pipeline sabotage inflict longterm damage security economy environment entire region hersh report allege nord stream gas pipeline damage joint operation norway also read russian foreign ministry ask answer blow nord stream action require thorough international investigation punishment responsible compensation damage cause proposal say seymour hersh report say last week hersh word report claim top secret highlydangerous operation carry diver baltop series military exercise baltic sea carry nato country accord diver train navy diving salvage centre florida plant c explosive three nord stream pipeline june detonate three month use sonar buoy broadcast signal trigger bomb must read plot around nord stream sabotage thicken west tussle russia ukraine war get new twist claim nord stream attack carry response russian president vladimir putin invasion ukraine explosion nord stream pipeline report september attack ostensibly continue puzzle investigator read late news trend news cricket news bollywood news india news entertainment news follow facebook twitter instagram

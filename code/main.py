@@ -1,5 +1,3 @@
-# preprocessing.py
-
 import os
 import pandas as pd
 from modules.data_loader import load_initial_data
@@ -16,9 +14,9 @@ def main():
     
     # Define paths
     base_path = os.path.dirname(os.path.abspath(__file__))
-    documents_path = os.path.join(base_path, "training_data_16_October_release/EN/raw-documents")
-    annotations_file = os.path.join(base_path, "training_data_16_October_release/EN/subtask-2-annotations.txt")
-    output_dir = os.path.join(base_path, "CoNLL")
+    documents_path = os.path.join(base_path, "../training_data_16_October_release/EN/raw-documents")
+    annotations_file = os.path.join(base_path, "../training_data_16_October_release/EN/subtask-2-annotations.txt")
+    output_dir = os.path.join(base_path, "../CoNLL")
     
     # Create output directory if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)
