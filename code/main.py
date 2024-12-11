@@ -49,8 +49,7 @@ def main():
         #logger.info("Converting to CoNLL-U format...")
         #convert_to_connlu(df, output_dir, 'tokens')
         logger.info("Preprocessing completed successfully")
-        narratives = df['narrative_subnarrative_pairs'].apply(eval).apply(lambda x: x[0]['narrative'])
-        print(narratives.value_counts())
+
         
         # 6. Train BERT model
         logger.info("Starting BERT training...")
