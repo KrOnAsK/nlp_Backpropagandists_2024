@@ -1,0 +1,28 @@
+2024-12-11 16:15:01,409 - dl_methods.transformer - INFO - Training set size: 158, Validation set size: 40
+2024-12-11 16:15:01,410 - dl_methods.transformer - ERROR - Error in BERT training: 'target_indices'
+2024-12-11 16:15:01,410 - __main__ - ERROR - An error occurred during preprocessing: 'target_indices'
+Traceback (most recent call last):
+  File "C:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\venv\lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'target_indices'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\code\main.py", line 63, in <module>
+    main()
+  File "c:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\code\main.py", line 53, in main
+    training_results = train_bert(df, base_path)
+  File "c:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\code\dl_methods\transformer.py", line 73, in train_bert
+    train_texts, train_labels = prepare_data(df_train)
+  File "c:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\code\dl_methods\transformer.py", line 28, in prepare_data
+    labels = df['target_indices'].apply(eval).apply(lambda x: x[0]).tolist()
+  File "C:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\venv\lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\venv\lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'target_indices'

@@ -5,6 +5,7 @@ from modules.text_segmentation import tokenize_text, handle_unusual_sentences
 from modules.text_normalization import normalize_text
 from modules.connlu_converter import convert_to_connlu
 from modules.utils import setup_logging
+from dl_methods.transformer import train_bert
 import logging
 
 def main():
@@ -38,12 +39,21 @@ def main():
         # 4. Normalize text
         logger.info("Normalizing text...")
         df = normalize_text(df)
+        df.head()
         
         # 5. Convert to CoNLL-U format
-        logger.info("Converting to CoNLL-U format...")
-        convert_to_connlu(df, output_dir, 'tokens')
-        
+        # only use when ConLL-U format is needed
+        #logger.info("Converting to CoNLL-U format...")
+        #convert_to_connlu(df, output_dir, 'tokens')
         logger.info("Preprocessing completed successfully")
+
+        
+        # 6. Train BERT model
+        logger.info("Starting BERT training...")
+        training_results = train_bert(df, base_path)
+        logger.info(f"BERT training completed. Results: {training_results}")
+        
+        
         
     except Exception as e:
         logger.error(f"An error occurred during preprocessing: {str(e)}")

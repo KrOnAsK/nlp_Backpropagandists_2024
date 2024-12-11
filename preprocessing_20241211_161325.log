@@ -1,0 +1,24 @@
+2024-12-11 16:13:25,163 - __main__ - INFO - Loading initial data...
+2024-12-11 16:13:25,285 - __main__ - INFO - Loaded 198 documents
+2024-12-11 16:13:25,285 - __main__ - INFO - Tokenizing text...
+2024-12-11 16:13:26,053 - __main__ - INFO - Handling unusual sentences...
+2024-12-11 16:13:26,053 - __main__ - INFO - Normalizing text...
+2024-12-11 16:13:26,053 - modules.text_normalization - INFO - Using device: cpu
+2024-12-11 16:13:26,064 - stanza - INFO - Loading these models for language: en (English):
+=================================
+| Processor | Package           |
+---------------------------------
+| tokenize  | combined          |
+| lemma     | combined_nocharlm |
+=================================
+
+2024-12-11 16:13:26,064 - stanza - INFO - Using device: cpu
+2024-12-11 16:13:26,064 - stanza - INFO - Loading: tokenize
+2024-12-11 16:13:26,064 - stanza - INFO - Loading: lemma
+2024-12-11 16:13:26,120 - stanza - INFO - Done loading processors!
+2024-12-11 16:13:26,138 - modules.text_normalization - INFO - Starting processing of 198 rows in 4 batches
+2024-12-11 16:13:48,879 - __main__ - INFO - Preprocessing completed successfully
+2024-12-11 16:13:48,880 - __main__ - INFO - Starting BERT training...
+2024-12-11 16:15:01,409 - dl_methods.transformer - INFO - Training set size: 158, Validation set size: 40
+2024-12-11 16:15:01,410 - dl_methods.transformer - ERROR - Error in BERT training: 'target_indices'
+2024-12-11 16:15:01,410 - __main__ - ERROR - An error occurred during preprocessing: 'target_indices'
