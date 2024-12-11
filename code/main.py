@@ -7,6 +7,8 @@ from modules.connlu_converter import convert_to_connlu
 from modules.utils import setup_logging
 from dl_methods.transformer import train_bert
 import logging
+from non_dl_methods.naive_bayes import *
+import pickle
 
 def main():
     # Setup logging
@@ -62,5 +64,21 @@ def main():
         logger.error(f"An error occurred during preprocessing: {str(e)}")
         raise
 
+    return df
+
 if __name__ == "__main__":
-    main()
+    
+    # cache preprocessed data using pickle
+    df = None
+    try:
+        with open('df_preprocessed_cache.pkl', 'rb') as f:
+            df = pickle.load(f)
+            print("Loaded preprocessed data from cache")
+    except:
+        print("Preprocessed data not found in cache. Running preprocessing...")
+        df = main()
+        with open('df_preprocessed_cache.pkl', 'wb') as f:
+            pickle.dump(df, f)    
+
+    nb_results = run_non_dl_method(df, "naive_bayes", "bag_of_words")
+    print("Results from Naive Bayes: ", nb_results)
