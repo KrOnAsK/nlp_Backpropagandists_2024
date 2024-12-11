@@ -39,3 +39,6 @@
 2024-12-11 15:09:24,208 - stanza - INFO - Loading: lemma
 2024-12-11 15:09:24,244 - stanza - INFO - Loading: depparse
 2024-12-11 15:09:24,503 - stanza - INFO - Done loading processors!
+2024-12-11 15:47:24,477 - modules.connlu_converter - INFO - Total sentences processed: 198
+2024-12-11 15:47:24,481 - modules.connlu_converter - INFO - Total files created: 20
+2024-12-11 15:47:24,488 - __main__ - INFO - Preprocessing completed successfully
