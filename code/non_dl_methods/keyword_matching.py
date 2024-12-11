@@ -1,6 +1,8 @@
 from collections import Counter
+from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 
 def get_top_words_per_narrative(filepath, top_n=5):
+    
     with open(filepath, 'r', encoding='utf-8') as file:
         content = file.read()
     
@@ -51,6 +53,39 @@ def match_narrative(test_text, train_words, min_matches=2):
     
     return best_match, max_matches
 
+def evaluate_predictions(test_file, train_words):
+    with open(test_file, 'r', encoding='utf-8') as file:
+        test_content = file.read()
+
+    test_sentences = test_content.strip().split('\n\n')
+    y_true = []  # True narrative labels
+    y_pred = []  # Predicted narrative labels
+    
+    current_narrative = None
+    for sentence in test_sentences:
+        lines = sentence.split('\n')
+        text_line = next((line for line in lines if line.startswith('# text =')), None)
+        if text_line:
+            text = text_line.replace('# text = ', '')
+            matched_narrative, _ = match_narrative(text, train_words)
+            
+            if matched_narrative:
+                y_true.append(text)
+                y_pred.append(matched_narrative)
+
+    # Calculate metrics
+    accuracy = sum(1 for t, p in zip(y_true, y_pred) if t == p) / len(y_true)
+    precision, recall, f1, _ = precision_recall_fscore_support(
+        y_true, y_pred, average='weighted', zero_division=0
+    )
+
+    return {
+        'accuracy': accuracy,
+        'precision': precision,
+        'recall': recall,
+        'f1': f1
+    }
+
 # Usage
 train_file = "train.conllu"
 test_file = "test.conllu"
@@ -58,24 +93,27 @@ test_file = "test.conllu"
 # Get top words from training narratives
 train_words = get_top_words_per_narrative(train_file)
 
-# Process test file
+# Evaluate predictions
+metrics = evaluate_predictions(test_file, train_words)
+
+print("\nEvaluation Metrics:")
+print(f"Accuracy: {metrics['accuracy']:.3f}")
+print(f"Precision: {metrics['precision']:.3f}")
+print(f"Recall: {metrics['recall']:.3f}")
+print(f"F1 Score: {metrics['f1']:.3f}")
+
+# Print some example predictions
+print("\nExample Predictions:")
 with open(test_file, 'r', encoding='utf-8') as file:
     test_content = file.read()
 
 test_sentences = test_content.strip().split('\n\n')
-results = []
-
-for sentence in test_sentences:
+for i, sentence in enumerate(test_sentences[:5]):  # Show first 5 examples
     lines = sentence.split('\n')
     text_line = next((line for line in lines if line.startswith('# text =')), None)
     if text_line:
         test_text = text_line.replace('# text = ', '')
         matched_narrative, num_matches = match_narrative(test_text, train_words)
-        if matched_narrative:
-            results.append((test_text[:50] + "...", matched_narrative[:50] + "...", num_matches))
-
-print("\nMatching Results:")
-for test, match, count in results:
-    print(f"\nTest narrative: {test}")
-    print(f"Matched with: {match}")
-    print(f"Number of matching words: {count}")
+        print(f"\nTest {i+1}:")
+        print(f"Actual: {test_text[:100]}...")
+        print(f"Predicted: {matched_narrative[:100] if matched_narrative else 'No match'}...")

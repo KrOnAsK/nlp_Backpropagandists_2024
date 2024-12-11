@@ -1,0 +1,43 @@
+{
+  "os": "Windows-10-10.0.19045-SP0",
+  "python": "CPython 3.12.7",
+  "startedAt": "2024-12-10T23:11:43.745597Z",
+  "program": "c:\\Users\\krona\\OneDrive - TU Wien\\TU Wien\\1. Semester\\NLP\\nlp_Backpropagandists_2024\\code\\dl_methods\\transformer.py",
+  "codePath": "code\\dl_methods\\transformer.py",
+  "git": {
+    "remote": "https://github.com/KrOnAsK/nlp_Backpropagandists_2024.git",
+    "commit": "b3e94e20bdbbdc4e28ee3e910676e94174694b9a"
+  },
+  "email": "jonaskruse@gmx.de",
+  "root": "C:\\Users\\krona\\OneDrive - TU Wien\\TU Wien\\1. Semester\\NLP\\nlp_Backpropagandists_2024",
+  "host": "DESKTOP-40PH81U",
+  "username": "krona",
+  "executable": "C:\\ProgramData\\anaconda3\\python.exe",
+  "codePathLocal": "code\\dl_methods\\transformer.py",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA GeForce RTX 2080 Ti",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1000186310656",
+      "used": "380374339584"
+    }
+  },
+  "memory": {
+    "total": "34224529408"
+  },
+  "cpu": {
+    "count": 6,
+    "countLogical": 12
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 2080 Ti",
+      "memoryTotal": "11811160064",
+      "cudaCores": 4352,
+      "architecture": "Turing"
+    }
+  ],
+  "cudaVersion": "12.7"
+}
