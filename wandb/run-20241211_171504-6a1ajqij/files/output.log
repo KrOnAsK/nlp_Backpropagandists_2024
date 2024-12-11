@@ -1,0 +1,3 @@
+2024-12-11 17:15:05,980 - dl_methods.transformer - INFO - Created mapping for 69 unique narratives
+2024-12-11 17:15:05,989 - dl_methods.transformer - INFO - Created label mapping with 69 classes
+2024-12-11 17:15:05,995 - dl_methods.transformer - ERROR - Error in BERT training: The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.

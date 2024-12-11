@@ -1,0 +1,17 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.10.11",
+  "startedAt": "2024-12-11T16:08:09.277720Z",
+  "program": "c:\\Users\\jonas\\OneDrive - TU Wien\\TU Wien\\1. Semester\\NLP\\nlp_Backpropagandists_2024\\code\\main.py",
+  "codePath": "code\\main.py",
+  "git": {
+    "remote": "https://github.com/KrOnAsK/nlp_Backpropagandists_2024.git",
+    "commit": "8fa0aa84a06affd450125826a646b7542f0d287d"
+  },
+  "email": "jonaskruse@gmx.de",
+  "root": "C:\\Users\\jonas\\OneDrive - TU Wien\\TU Wien\\1. Semester\\NLP\\nlp_Backpropagandists_2024",
+  "host": "Surface9Pro",
+  "username": "jonas",
+  "executable": "C:\\Users\\jonas\\OneDrive - TU Wien\\TU Wien\\1. Semester\\NLP\\nlp_Backpropagandists_2024\\venv\\Scripts\\python.exe",
+  "codePathLocal": "code\\main.py"
+}

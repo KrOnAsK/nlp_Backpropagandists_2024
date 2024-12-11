@@ -6,10 +6,12 @@ from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 from datetime import datetime
 import logging
 import os
+import json
 
 logger = logging.getLogger(__name__)
 
 class CustomDataset(torch.utils.data.Dataset):
+    """Custom Dataset for loading BERT input data"""
     def __init__(self, encodings, labels):
         self.encodings = encodings
         self.labels = labels
@@ -22,14 +24,105 @@ class CustomDataset(torch.utils.data.Dataset):
     def __len__(self):
         return len(self.labels)
 
-def prepare_data(df):
-    """Prepare data for BERT training"""
-    texts = df['content'].tolist()
-    labels = df['target_indices'].apply(eval).apply(lambda x: x[0]).tolist()
-    return texts, labels
+def create_label_mapping(all_narratives):
+    """
+    Create a consistent mapping for all narrative pairs
+    
+    Args:
+        all_narratives: List of lists of narrative dictionaries
+    
+    Returns:
+        dict: Mapping from narrative string to numeric index
+    """
+    unique_narratives = set()
+    for narratives in all_narratives:
+        for narrative in narratives:
+            narrative_str = str(narrative)  # Convert dict to string
+            unique_narratives.add(narrative_str)
+    
+    # Create mapping
+    narrative_to_idx = {
+        narrative: idx 
+        for idx, narrative in enumerate(sorted(unique_narratives))
+    }
+    
+    logger.info(f"Created mapping for {len(narrative_to_idx)} unique narratives")
+    return narrative_to_idx
+
+def get_first_narrative_label(narrative_list, label_mapping):
+    """
+    Convert first narrative in list to numeric label
+    
+    Args:
+        narrative_list: List of narrative dictionaries
+        label_mapping: Dictionary mapping narrative strings to indices
+    
+    Returns:
+        int: Numeric label for the first narrative
+    """
+    if narrative_list and len(narrative_list) > 0:
+        narrative_str = str(narrative_list[0])
+        return label_mapping[narrative_str]
+    return None
+
+def prepare_data(df, label_mapping=None):
+    """
+    Prepare data for BERT training
+    
+    Args:
+        df: DataFrame containing tokens_normalized and narrative_subnarrative_pairs
+        label_mapping: Optional pre-existing label mapping to use
+    
+    Returns:
+        tuple: (texts, labels, label_mapping)
+    """
+    try:
+        # Handle tokens_normalized
+        texts = df['tokens_normalized'].tolist()
+        texts = [' '.join(tokens) if isinstance(tokens, list) else tokens for tokens in texts]
+        
+        # Convert narrative_subnarrative_pairs to list if it's a string
+        narratives = df['narrative_subnarrative_pairs'].apply(
+            lambda x: eval(x) if isinstance(x, str) else x
+        ).tolist()
+
+        # Create or use label mapping
+        if label_mapping is None:
+            label_mapping = create_label_mapping(narratives)
+            
+        # Convert narratives to numerical labels
+        labels = []
+        for narrative_list in narratives:
+            if narrative_list:  # Check if list is not empty
+                label_str = str(narrative_list[0])  # Convert first narrative dict to string
+                if label_str in label_mapping:
+                    labels.append(label_mapping[label_str])
+                else:
+                    raise ValueError(f"Unknown narrative: {label_str}")
+            else:
+                raise ValueError("Empty narrative list found")
+
+        logger.info(f"Number of unique labels in mapping: {len(label_mapping)}")
+        logger.info(f"Sample text: {texts[0][:100]}")
+        logger.info(f"Sample label: {labels[0]}")
+        
+        return texts, labels, label_mapping
+
+    except Exception as e:
+        logger.error(f"Error in prepare_data: {str(e)}")
+        logger.error(f"Sample narrative_subnarrative_pairs: {df['narrative_subnarrative_pairs'].iloc[0]}")
+        raise
 
 def compute_metrics(pred):
-    """Compute metrics for evaluation"""
+    """
+    Compute evaluation metrics
+    
+    Args:
+        pred: Prediction object from trainer
+    
+    Returns:
+        dict: Dictionary containing computed metrics
+    """
     labels = pred.label_ids
     preds = pred.predictions.argmax(-1)
     precision, recall, f1, _ = precision_recall_fscore_support(labels, preds, average="micro")
@@ -46,8 +139,8 @@ def train_bert(df, base_path, project_name="bert-finetuning"):
     Train BERT model on the provided DataFrame
     
     Args:
-        df: DataFrame containing the preprocessed data
-        base_path: Base path for saving model and logs
+        df: DataFrame containing the training data
+        base_path: Base path for saving model outputs
         project_name: Name for the wandb project
     
     Returns:
@@ -65,31 +158,58 @@ def train_bert(df, base_path, project_name="bert-finetuning"):
         # Initialize wandb
         wandb.init(project=project_name, name=f"bert-base-uncased-custom-{current_date}")
 
-        # Split data
-        df_train, df_val = train_test_split(df, test_size=0.2, random_state=42)
+        # Create label mapping from entire dataset first
+        all_narratives = df['narrative_subnarrative_pairs'].apply(
+            lambda x: eval(x) if isinstance(x, str) else x
+        ).tolist()
+        
+        label_mapping = create_label_mapping(all_narratives)
+        
+        # Save label mapping
+        mapping_path = os.path.join(output_dir, "label_mapping.json")
+        with open(mapping_path, 'w') as f:
+            json.dump(label_mapping, f, indent=2)
+        
+        logger.info(f"Created label mapping with {len(label_mapping)} classes")
+        
+        # Convert narratives to numeric labels for stratification
+        stratify_labels = df['narrative_subnarrative_pairs'].apply(
+            lambda x: get_first_narrative_label(eval(x) if isinstance(x, str) else x, label_mapping)
+        )
+        
+        # Split data using numeric labels for stratification
+        df_train, df_val = train_test_split(
+            df, 
+            test_size=0.2, 
+            random_state=42, 
+            stratify=stratify_labels
+        )
+        
         logger.info(f"Training set size: {len(df_train)}, Validation set size: {len(df_val)}")
 
-        # Prepare data
-        train_texts, train_labels = prepare_data(df_train)
-        val_texts, val_labels = prepare_data(df_val)
+        # Prepare data using the complete mapping
+        train_texts, train_labels, _ = prepare_data(df_train, label_mapping)
+        val_texts, val_labels, _ = prepare_data(df_val, label_mapping)
 
         # Initialize tokenizer
         tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
         
         # Tokenize texts
-        train_encodings = tokenizer(train_texts, truncation=True, padding=True)
-        val_encodings = tokenizer(val_texts, truncation=True, padding=True)
+        train_encodings = tokenizer(train_texts, truncation=True, padding=True, max_length=512)
+        val_encodings = tokenizer(val_texts, truncation=True, padding=True, max_length=512)
 
         # Create datasets
         train_dataset = CustomDataset(train_encodings, train_labels)
         val_dataset = CustomDataset(val_encodings, val_labels)
 
-        # Calculate number of labels
-        num_labels = len(set(df['target_indices'].apply(eval).apply(lambda x: x[0])))
-        logger.info(f"Number of labels: {num_labels}")
-
-        # Initialize model
-        model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=num_labels)
+        # Initialize model with correct number of labels
+        num_labels = len(label_mapping)
+        logger.info(f"Number of unique labels: {num_labels}")
+        
+        model = BertForSequenceClassification.from_pretrained(
+            "bert-base-uncased", 
+            num_labels=num_labels
+        )
 
         # Training arguments
         training_args = TrainingArguments(
@@ -102,9 +222,9 @@ def train_bert(df, base_path, project_name="bert-finetuning"):
             save_strategy="epoch",
             logging_dir=log_dir,
             load_best_model_at_end=True,
+            metric_for_best_model='eval_loss',
             greater_is_better=False,
             logging_steps=10,
-            metric_for_best_model='eval_loss',
             report_to="wandb"
         )
 
@@ -129,10 +249,11 @@ def train_bert(df, base_path, project_name="bert-finetuning"):
         wandb.log(results)
         logger.info(f"Evaluation results: {results}")
 
-        # Save model
-        model_save_path = os.path.join(output_dir, "final_model")
-        trainer.save_model(model_save_path)
-        logger.info(f"Model saved to {model_save_path}")
+        # Save model and tokenizer
+        trainer.save_model(output_dir)
+        tokenizer.save_pretrained(output_dir)
+        
+        logger.info(f"Model and tokenizer saved to {output_dir}")
 
         # End wandb run
         wandb.finish()
@@ -141,4 +262,42 @@ def train_bert(df, base_path, project_name="bert-finetuning"):
 
     except Exception as e:
         logger.error(f"Error in BERT training: {str(e)}")
+        wandb.finish()
+        raise
+
+def predict(text, model_path):
+    """
+    Make predictions using a trained model
+    
+    Args:
+        text: Input text to classify
+        model_path: Path to the saved model
+    
+    Returns:
+        int: Predicted class index
+    """
+    try:
+        # Load model and tokenizer
+        model = BertForSequenceClassification.from_pretrained(model_path)
+        tokenizer = BertTokenizer.from_pretrained(model_path)
+        
+        # Load label mapping
+        with open(os.path.join(model_path, "label_mapping.json"), 'r') as f:
+            label_mapping = json.load(f)
+        
+        # Prepare input
+        inputs = tokenizer(text, truncation=True, padding=True, return_tensors="pt")
+        
+        # Get prediction
+        outputs = model(**inputs)
+        predicted_class = outputs.logits.argmax(-1).item()
+        
+        # Convert to original label
+        idx_to_label = {v: k for k, v in label_mapping.items()}
+        predicted_label = idx_to_label[predicted_class]
+        
+        return predicted_label, outputs.logits.softmax(-1)[0].tolist()
+
+    except Exception as e:
+        logger.error(f"Error in prediction: {str(e)}")
         raise

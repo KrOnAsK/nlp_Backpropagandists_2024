@@ -1,0 +1,54 @@
+2024-12-11 17:03:55,408 - dl_methods.transformer - INFO - Training set size: 158, Validation set size: 40
+2024-12-11 17:03:55,415 - dl_methods.transformer - INFO - Number of unique narratives: 64
+2024-12-11 17:03:55,416 - dl_methods.transformer - INFO - Sample text: esg action unity food partner green ark recycle plastic waste karachi unity food continue showcase s
+2024-12-11 17:03:55,418 - dl_methods.transformer - INFO - Sample label: 47
+2024-12-11 17:03:55,422 - dl_methods.transformer - INFO - Number of unique narratives: 42
+2024-12-11 17:03:55,422 - dl_methods.transformer - INFO - Sample text: russia infrastructure attack could impact ukraine neighbor official russia late attack ukraine infra
+2024-12-11 17:03:55,423 - dl_methods.transformer - INFO - Sample label: 30
+tokenizer_config.json: 100%|████████████████████████████████████████████████████████████████████| 48.0/48.0 [00:00<00:00, 22.5kB/s]
+C:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\venv\lib\site-packages\huggingface_hub\file_download.py:139: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\jonas\.cache\huggingface\hub\models--bert-base-uncased. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+vocab.txt: 100%|████████████████████████████████████████████████████████████████████████████████| 232k/232k [00:00<00:00, 13.1MB/s]
+tokenizer.json: 100%|███████████████████████████████████████████████████████████████████████████| 466k/466k [00:00<00:00, 32.6MB/s]
+config.json: 100%|████████████████████████████████████████████████████████████████████████████████████████| 570/570 [00:00<?, ?B/s]
+2024-12-11 17:03:59,749 - dl_methods.transformer - INFO - Number of unique labels: 36
+model.safetensors: 100%|████████████████████████████████████████████████████████████████████████| 440M/440M [00:19<00:00, 22.3MB/s]
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+C:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\venv\lib\site-packages\transformers\training_args.py:1575: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+2024-12-11 17:04:20,403 - dl_methods.transformer - INFO - Starting training...
+[34m[1mwandb[0m: [33mWARNING[0m The `run_name` is currently set to the same value as `TrainingArguments.output_dir`. If this was not intended, please specify a different run name by setting the `TrainingArguments.run_name` parameter.
+  0%|                                                                                                      | 0/100 [00:00<?, ?it/s]Traceback (most recent call last):
+2024-12-11 17:04:35,762 - dl_methods.transformer - ERROR - Error in BERT training: Target 47 is out of bounds.
+2024-12-11 17:04:35,806 - __main__ - ERROR - An error occurred during preprocessing: Target 47 is out of bounds.
+  File "c:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\code\main.py", line 66, in <module>
+    main()
+  File "c:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\code\main.py", line 56, in main
+    training_results = train_bert(df, base_path)
+  File "c:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\code\dl_methods\transformer.py", line 176, in train_bert
+    trainer.train()
+  File "C:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\venv\lib\site-packages\transformers\trainer.py", line 2164, in train
+    return inner_training_loop(
+  File "C:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\venv\lib\site-packages\transformers\trainer.py", line 2522, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "C:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\venv\lib\site-packages\transformers\trainer.py", line 3655, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "C:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\venv\lib\site-packages\transformers\trainer.py", line 3709, in compute_loss
+    outputs = model(**inputs)
+  File "C:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\venv\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\venv\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\venv\lib\site-packages\transformers\models\bert\modeling_bert.py", line 1703, in forward
+    loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
+  File "C:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\venv\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\venv\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\venv\lib\site-packages\torch\nn\modules\loss.py", line 1293, in forward
+    return F.cross_entropy(
+  File "C:\Users\jonas\OneDrive - TU Wien\TU Wien\1. Semester\NLP\nlp_Backpropagandists_2024\venv\lib\site-packages\torch\nn\functional.py", line 3479, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(
+IndexError: Target 47 is out of bounds.

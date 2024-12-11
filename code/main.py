@@ -39,14 +39,18 @@ def main():
         # 4. Normalize text
         logger.info("Normalizing text...")
         df = normalize_text(df)
-        df.head()
-        
+        # print(df.head())
+        # print(df.columns)
+        # print(type(df['tokens_normalized'].iloc[0]))
+        # print(df['tokens_normalized'].iloc[0])
+        # print(df['narrative_subnarrative_pairs'].iloc[0])
         # 5. Convert to CoNLL-U format
         # only use when ConLL-U format is needed
         #logger.info("Converting to CoNLL-U format...")
         #convert_to_connlu(df, output_dir, 'tokens')
         logger.info("Preprocessing completed successfully")
-
+        narratives = df['narrative_subnarrative_pairs'].apply(eval).apply(lambda x: x[0]['narrative'])
+        print(narratives.value_counts())
         
         # 6. Train BERT model
         logger.info("Starting BERT training...")
