@@ -1,0 +1,163 @@
+2024-12-13 23:10:47,487 - __main__ - INFO - Loading initial data...
+2024-12-13 23:10:47,582 - __main__ - INFO - Loaded 198 documents
+2024-12-13 23:10:47,583 - __main__ - INFO - Tokenizing text...
+2024-12-13 23:10:48,586 - __main__ - INFO - Handling unusual sentences...
+2024-12-13 23:10:48,586 - __main__ - INFO - Normalizing text...
+2024-12-13 23:10:48,602 - modules.text_normalization - INFO - Using device: cpu
+2024-12-13 23:10:48,609 - stanza - INFO - Loading these models for language: en (English):
+=================================
+| Processor | Package           |
+---------------------------------
+| tokenize  | combined          |
+| lemma     | combined_nocharlm |
+=================================
+
+2024-12-13 23:10:48,620 - stanza - INFO - Using device: cpu
+2024-12-13 23:10:48,623 - stanza - INFO - Loading: tokenize
+2024-12-13 23:10:48,624 - stanza - INFO - Loading: lemma
+2024-12-13 23:10:50,343 - stanza - INFO - Done loading processors!
+2024-12-13 23:10:50,353 - modules.text_normalization - INFO - Starting processing of 198 rows in 4 batches
+2024-12-13 23:11:06,538 - __main__ - INFO - Preprocessing completed successfully
+2024-12-13 23:11:06,702 - __main__ - INFO - Starting BERT training...
+2024-12-13 23:11:06,702 - __main__ - INFO - Created mapping for 69 unique narratives
+2024-12-13 23:11:06,719 - __main__ - INFO - Number of unique labels in mapping: 69
+2024-12-13 23:11:06,719 - __main__ - INFO - Sample text: world need peacemaker trump jeff crouere liberty daily world total chaos month biden presidency sout
+2024-12-13 23:11:06,721 - __main__ - INFO - Sample label: 49
+2024-12-13 23:11:06,875 - __main__ - INFO - Model saved to c:\Users\leonb\OneDrive\Dokumente\Studium\Master\Sem1\NLP and InfExt\practical\nlp_Backpropagandists_2024\code\../models
+2024-12-13 23:11:06,891 - __main__ - INFO - Training classification report:
+2024-12-13 23:11:06,892 - __main__ - INFO - {
+  "0": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "2": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "3": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "4": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 1.0
+  },
+  "5": {
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1-score": 0.5,
+    "support": 1.0
+  },
+  "12": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "17": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "21": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "22": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "24": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "30": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1.0
+  },
+  "33": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "36": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "41": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "45": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "49": {
+    "precision": 0.5757575757575758,
+    "recall": 0.95,
+    "f1-score": 0.7169811320754716,
+    "support": 20.0
+  },
+  "54": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "61": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "66": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1.0
+  },
+  "68": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "accuracy": 0.575,
+  "macro avg": {
+    "precision": 0.17045454545454547,
+    "recall": 0.2475,
+    "f1-score": 0.1941823899371069,
+    "support": 40.0
+  },
+  "weighted avg": {
+    "precision": 0.35871212121212126,
+    "recall": 0.575,
+    "f1-score": 0.4376572327044025,
+    "support": 40.0
+  }
+}
+2024-12-13 23:11:06,894 - __main__ - INFO - BERT training completed. Results: {'0': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '2': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '3': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '4': {'precision': 0.5, 'recall': 1.0, 'f1-score': 0.6666666666666666, 'support': 1.0}, '5': {'precision': 0.3333333333333333, 'recall': 1.0, 'f1-score': 0.5, 'support': 1.0}, '12': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '17': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '21': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '22': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '24': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '30': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, '33': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '36': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '41': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '45': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '49': {'precision': 0.5757575757575758, 'recall': 0.95, 'f1-score': 0.7169811320754716, 'support': 20.0}, '54': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '61': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '66': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, '68': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 2.0}, 'accuracy': 0.575, 'macro avg': {'precision': 0.17045454545454547, 'recall': 0.2475, 'f1-score': 0.1941823899371069, 'support': 40.0}, 'weighted avg': {'precision': 0.35871212121212126, 'recall': 0.575, 'f1-score': 0.4376572327044025, 'support': 40.0}}
