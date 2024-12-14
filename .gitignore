@@ -1,0 +1,15 @@
+# Ignore preprocessing log files
+preprocessing_*.log
+
+# Ignore wandb directory
+wandb/
+
+# Ignore logs directory
+logs/
+
+code/models/bert*/
+
+
+# Ignore Python compiled files
+*.pyc
+__pycache__/
