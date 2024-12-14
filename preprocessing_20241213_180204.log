@@ -1,0 +1,23 @@
+2024-12-13 18:02:04,354 - __main__ - INFO - Loading initial data...
+2024-12-13 18:02:04,433 - __main__ - INFO - Loaded 198 documents
+2024-12-13 18:02:04,433 - __main__ - INFO - Tokenizing text...
+2024-12-13 18:02:05,349 - __main__ - INFO - Handling unusual sentences...
+2024-12-13 18:02:05,350 - __main__ - INFO - Normalizing text...
+2024-12-13 18:02:05,353 - modules.text_normalization - INFO - Using device: cpu
+2024-12-13 18:02:05,375 - stanza - INFO - Loading these models for language: en (English):
+=================================
+| Processor | Package           |
+---------------------------------
+| tokenize  | combined          |
+| lemma     | combined_nocharlm |
+=================================
+
+2024-12-13 18:02:05,378 - stanza - INFO - Using device: cpu
+2024-12-13 18:02:05,378 - stanza - INFO - Loading: tokenize
+2024-12-13 18:02:05,378 - stanza - INFO - Loading: lemma
+2024-12-13 18:02:05,486 - stanza - INFO - Done loading processors!
+2024-12-13 18:02:05,501 - modules.text_normalization - INFO - Starting processing of 198 rows in 4 batches
+2024-12-13 18:02:20,244 - __main__ - INFO - Preprocessing completed successfully
+2024-12-13 18:02:20,244 - __main__ - INFO - Starting BERT training...
+2024-12-13 18:02:59,578 - dl_methods.transformer - ERROR - Error in BERT training: [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen
+2024-12-13 18:02:59,579 - __main__ - ERROR - An error occurred during preprocessing: [WinError 10054] Eine vorhandene Verbindung wurde vom Remotehost geschlossen
