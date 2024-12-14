@@ -134,7 +134,7 @@ def compute_metrics(pred):
         'recall': recall
     }
 
-def train_bert(df, base_path, project_name="bert-finetuning"):
+def train_bert(df, base_path, project_name="bert-finetuning", min_examples_per_class=2):
     """
     Train BERT model on the provided DataFrame
     
@@ -142,6 +142,7 @@ def train_bert(df, base_path, project_name="bert-finetuning"):
         df: DataFrame containing the training data
         base_path: Base path for saving model outputs
         project_name: Name for the wandb project
+        min_examples_per_class: Minimum number of examples required for each class
     
     Returns:
         dict: Evaluation results
@@ -158,28 +159,57 @@ def train_bert(df, base_path, project_name="bert-finetuning"):
         # Initialize wandb
         wandb.init(project=project_name, name=f"bert-base-uncased-custom-{current_date}")
 
-        # Create label mapping from entire dataset first
+        # Get all narratives and count their frequencies
         all_narratives = df['narrative_subnarrative_pairs'].apply(
             lambda x: eval(x) if isinstance(x, str) else x
         ).tolist()
         
-        label_mapping = create_label_mapping(all_narratives)
+        # Count frequencies of each narrative
+        narrative_counts = {}
+        for narratives in all_narratives:
+            if narratives:
+                narrative_str = str(narratives[0])  # Use first narrative
+                narrative_counts[narrative_str] = narrative_counts.get(narrative_str, 0) + 1
+        
+        # Filter narratives that have enough examples
+        valid_narratives = {
+            narrative: count 
+            for narrative, count in narrative_counts.items() 
+            if count >= min_examples_per_class
+        }
+        
+        logger.info(f"Total unique narratives: {len(narrative_counts)}")
+        logger.info(f"Narratives with >= {min_examples_per_class} examples: {len(valid_narratives)}")
+        
+        # Create mapping only for valid narratives
+        label_mapping = {
+            narrative: idx 
+            for idx, narrative in enumerate(sorted(valid_narratives.keys()))
+        }
+        
+        # Filter DataFrame to only include rows with valid narratives
+        df['temp_narrative'] = df['narrative_subnarrative_pairs'].apply(
+            lambda x: str(eval(x)[0] if isinstance(x, str) else x[0])
+        )
+        df_filtered = df[df['temp_narrative'].isin(valid_narratives.keys())].copy()
+        df_filtered.drop('temp_narrative', axis=1, inplace=True)
+        
+        logger.info(f"Original dataset size: {len(df)}")
+        logger.info(f"Filtered dataset size: {len(df_filtered)}")
         
         # Save label mapping
         mapping_path = os.path.join(output_dir, "label_mapping.json")
         with open(mapping_path, 'w') as f:
             json.dump(label_mapping, f, indent=2)
         
-        logger.info(f"Created label mapping with {len(label_mapping)} classes")
-        
         # Convert narratives to numeric labels for stratification
-        stratify_labels = df['narrative_subnarrative_pairs'].apply(
+        stratify_labels = df_filtered['narrative_subnarrative_pairs'].apply(
             lambda x: get_first_narrative_label(eval(x) if isinstance(x, str) else x, label_mapping)
         )
         
         # Split data using numeric labels for stratification
         df_train, df_val = train_test_split(
-            df, 
+            df_filtered, 
             test_size=0.2, 
             random_state=42, 
             stratify=stratify_labels

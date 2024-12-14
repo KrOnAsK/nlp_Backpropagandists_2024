@@ -38,7 +38,7 @@ def main():
         
         # 4. Normalize text
         logger.info("Normalizing text...")
-        df = normalize_text(df)
+        df_normalized, df_normalized_ua, df_normalized_cc = normalize_text(df)
         # print(df.head())
         # print(df.columns)
         # print(type(df['tokens_normalized'].iloc[0]))
@@ -53,8 +53,16 @@ def main():
         
         # 6. Train BERT model
         logger.info("Starting BERT training...")
-        training_results = train_bert(df, base_path)
-        logger.info(f"BERT training completed. Results: {training_results}")
+
+        training_results = train_bert(df_normalized, base_path)
+        logger.info(f"BERT training on full Data completed. Results: {training_results}")
+
+        training_results_ua = train_bert(df_normalized_ua, base_path)
+        logger.info(f"BERT training on UA Data completed. Results: {training_results_ua}")
+
+        training_results_cc = train_bert(df_normalized_cc, base_path)
+        logger.info(f"BERT training on CC Data completed. Results: {training_results_cc}")
+        
         
         
         
