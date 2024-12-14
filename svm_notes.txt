@@ -1,0 +1,5 @@
+- Label Problem: Multilabel classification not working. Where does the error occur?
+    - Theory 1: create_label_mapping
+        - Until here, we give every narrative subnarrative pair that occurs a unique id. This is correct, the error is not here.
+    - Theory 2: prepare_data
+- Since we use the all data to create the label mapping, classes with 0 support can occur in the test set

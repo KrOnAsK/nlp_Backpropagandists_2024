@@ -14,6 +14,8 @@ logger = logging.getLogger(__name__)
 def normalize_text(df, column_name='tokens'):
     """
     Normalize text through lowercasing, removing stopwords, punctuation, and lemmatization
+    
+    Returns three DataFrames with normalized text data: The whole dataframe, Ukraine War (UA) and Climate Change (CC)
     """
     try:
         # Setup device
@@ -100,7 +102,11 @@ def normalize_text(df, column_name='tokens'):
         df_normalized = df.copy()
         df_normalized[f'{column_name}_normalized'] = normalized_tokens
         
-        return df_normalized
+        # Split dataframe by topic
+        df_normalized_ua = df_normalized[df_normalized['topic'] == 'UA']
+        df_normalized_cc = df_normalized[df_normalized['topic'] == 'CC']
+        
+        return df_normalized, df_normalized_ua, df_normalized_cc
     
     except Exception as e:
         logger.error(f"Error in normalize_text: {str(e)}")

@@ -1,0 +1,597 @@
+2024-12-14 12:55:11,135 - __main__ - INFO - Loading initial data...
+2024-12-14 12:55:11,239 - __main__ - INFO - Loaded 198 documents
+2024-12-14 12:55:11,240 - __main__ - INFO - Tokenizing text...
+2024-12-14 12:55:12,466 - __main__ - INFO - Handling unusual sentences...
+2024-12-14 12:55:12,466 - __main__ - INFO - Normalizing text...
+2024-12-14 12:55:12,475 - modules.text_normalization - INFO - Using device: cpu
+2024-12-14 12:55:12,483 - stanza - INFO - Loading these models for language: en (English):
+=================================
+| Processor | Package           |
+---------------------------------
+| tokenize  | combined          |
+| lemma     | combined_nocharlm |
+=================================
+
+2024-12-14 12:55:12,486 - stanza - INFO - Using device: cpu
+2024-12-14 12:55:12,487 - stanza - INFO - Loading: tokenize
+2024-12-14 12:55:12,492 - stanza - INFO - Loading: lemma
+2024-12-14 12:55:14,332 - stanza - INFO - Done loading processors!
+2024-12-14 12:55:14,340 - modules.text_normalization - INFO - Starting processing of 198 rows in 4 batches
+2024-12-14 12:55:31,062 - __main__ - INFO - Preprocessing completed successfully
+2024-12-14 12:55:31,216 - __main__ - INFO - Starting BERT training...
+2024-12-14 12:55:31,217 - __main__ - INFO - Created mapping for 42 unique narratives
+2024-12-14 12:55:31,222 - __main__ - INFO - Number of unique labels in mapping: 42
+2024-12-14 12:55:31,225 - __main__ - INFO - Sample text: world need peacemaker trump jeff crouere liberty daily world total chaos month biden presidency sout
+2024-12-14 12:55:31,226 - __main__ - INFO - Sample label: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2024-12-14 12:55:31,392 - __main__ - INFO - Model saved to c:\Users\leonb\OneDrive\Dokumente\Studium\Master\Sem1\NLP and InfExt\practical\nlp_Backpropagandists_2024\code\./models/svm_model.joblib
+2024-12-14 12:55:31,413 - __main__ - INFO - Training classification report:
+2024-12-14 12:55:31,416 - __main__ - INFO - {
+  "0": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "1": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "2": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "3": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4.0
+  },
+  "4": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 4.0
+  },
+  "5": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "6": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "7": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "8": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "9": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "10": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "11": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "12": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "13": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1.0
+  },
+  "14": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4.0
+  },
+  "15": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3.0
+  },
+  "16": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "17": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "18": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "19": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "20": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "21": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "22": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4.0
+  },
+  "23": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "24": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "25": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "26": {
+    "precision": 0.7142857142857143,
+    "recall": 0.5,
+    "f1-score": 0.5882352941176471,
+    "support": 10.0
+  },
+  "27": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "28": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "29": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "30": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "31": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "32": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "33": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "34": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "35": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "36": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "37": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "38": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "39": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "40": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "41": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "micro avg": {
+    "precision": 0.7777777777777778,
+    "recall": 0.13725490196078433,
+    "f1-score": 0.23333333333333334,
+    "support": 51.0
+  },
+  "macro avg": {
+    "precision": 0.06462585034013606,
+    "recall": 0.041666666666666664,
+    "f1-score": 0.04733893557422969,
+    "support": 51.0
+  },
+  "weighted avg": {
+    "precision": 0.23809523809523808,
+    "recall": 0.13725490196078433,
+    "f1-score": 0.166320645905421,
+    "support": 51.0
+  },
+  "samples avg": {
+    "precision": 0.2692307692307692,
+    "recall": 0.25,
+    "f1-score": 0.2564102564102564,
+    "support": 51.0
+  }
+}
+2024-12-14 12:55:31,418 - __main__ - INFO - BERT training completed. Results: {'0': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '1': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '2': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '3': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 4.0}, '4': {'precision': 1.0, 'recall': 0.25, 'f1-score': 0.4, 'support': 4.0}, '5': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 2.0}, '6': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '7': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '8': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '9': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '10': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '11': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '12': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '13': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, '14': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 4.0}, '15': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 3.0}, '16': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '17': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '18': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '19': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '20': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '21': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '22': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 4.0}, '23': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '24': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '25': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '26': {'precision': 0.7142857142857143, 'recall': 0.5, 'f1-score': 0.5882352941176471, 'support': 10.0}, '27': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 2.0}, '28': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 2.0}, '29': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '30': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '31': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '32': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '33': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '34': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '35': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '36': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '37': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 2.0}, '38': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '39': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 2.0}, '40': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '41': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, 'micro avg': {'precision': 0.7777777777777778, 'recall': 0.13725490196078433, 'f1-score': 0.23333333333333334, 'support': 51.0}, 'macro avg': {'precision': 0.06462585034013606, 'recall': 0.041666666666666664, 'f1-score': 0.04733893557422969, 'support': 51.0}, 'weighted avg': {'precision': 0.23809523809523808, 'recall': 0.13725490196078433, 'f1-score': 0.166320645905421, 'support': 51.0}, 'samples avg': {'precision': 0.2692307692307692, 'recall': 0.25, 'f1-score': 0.2564102564102564, 'support': 51.0}}
+2024-12-14 12:59:14,417 - __main__ - INFO - Starting SVM training with Climate Change data...
+2024-12-14 12:59:14,420 - __main__ - INFO - Created mapping for 42 unique narratives
+2024-12-14 12:59:14,425 - __main__ - INFO - Number of unique labels in mapping: 42
+2024-12-14 12:59:14,426 - __main__ - INFO - Sample text: world need peacemaker trump jeff crouere liberty daily world total chaos month biden presidency sout
+2024-12-14 12:59:14,428 - __main__ - INFO - Sample label: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2024-12-14 12:59:14,615 - __main__ - INFO - Model saved to c:\Users\leonb\OneDrive\Dokumente\Studium\Master\Sem1\NLP and InfExt\practical\nlp_Backpropagandists_2024\code\./models/svm_model.joblib
+2024-12-14 12:59:14,638 - __main__ - INFO - Training classification report:
+2024-12-14 12:59:14,640 - __main__ - INFO - {
+  "0": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "1": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "2": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "3": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4.0
+  },
+  "4": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 4.0
+  },
+  "5": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "6": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "7": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "8": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "9": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "10": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "11": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "12": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "13": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1.0
+  },
+  "14": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4.0
+  },
+  "15": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3.0
+  },
+  "16": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "17": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "18": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "19": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "20": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "21": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "22": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4.0
+  },
+  "23": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "24": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "25": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "26": {
+    "precision": 0.7142857142857143,
+    "recall": 0.5,
+    "f1-score": 0.5882352941176471,
+    "support": 10.0
+  },
+  "27": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "28": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "29": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "30": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "31": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "32": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "33": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1.0
+  },
+  "34": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "35": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "36": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "37": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "38": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "39": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "40": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "41": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "micro avg": {
+    "precision": 0.7777777777777778,
+    "recall": 0.13725490196078433,
+    "f1-score": 0.23333333333333334,
+    "support": 51.0
+  },
+  "macro avg": {
+    "precision": 0.06462585034013606,
+    "recall": 0.041666666666666664,
+    "f1-score": 0.04733893557422969,
+    "support": 51.0
+  },
+  "weighted avg": {
+    "precision": 0.23809523809523808,
+    "recall": 0.13725490196078433,
+    "f1-score": 0.166320645905421,
+    "support": 51.0
+  },
+  "samples avg": {
+    "precision": 0.2692307692307692,
+    "recall": 0.25,
+    "f1-score": 0.2564102564102564,
+    "support": 51.0
+  }
+}
+2024-12-14 12:59:14,642 - __main__ - INFO - SVM training completed. Results: {'0': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '1': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '2': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '3': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 4.0}, '4': {'precision': 1.0, 'recall': 0.25, 'f1-score': 0.4, 'support': 4.0}, '5': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 2.0}, '6': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '7': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '8': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '9': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '10': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '11': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '12': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '13': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, '14': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 4.0}, '15': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 3.0}, '16': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '17': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '18': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '19': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '20': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '21': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '22': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 4.0}, '23': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '24': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '25': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '26': {'precision': 0.7142857142857143, 'recall': 0.5, 'f1-score': 0.5882352941176471, 'support': 10.0}, '27': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 2.0}, '28': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 2.0}, '29': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '30': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '31': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '32': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '33': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1.0}, '34': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '35': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '36': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '37': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 2.0}, '38': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '39': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 2.0}, '40': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, '41': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, 'micro avg': {'precision': 0.7777777777777778, 'recall': 0.13725490196078433, 'f1-score': 0.23333333333333334, 'support': 51.0}, 'macro avg': {'precision': 0.06462585034013606, 'recall': 0.041666666666666664, 'f1-score': 0.04733893557422969, 'support': 51.0}, 'weighted avg': {'precision': 0.23809523809523808, 'recall': 0.13725490196078433, 'f1-score': 0.166320645905421, 'support': 51.0}, 'samples avg': {'precision': 0.2692307692307692, 'recall': 0.25, 'f1-score': 0.2564102564102564, 'support': 51.0}}
+2024-12-14 13:00:00,032 - __main__ - INFO - Starting SVM training with the complete data...
+2024-12-14 13:00:00,037 - __main__ - INFO - Created mapping for 69 unique narratives
+2024-12-14 13:00:00,038 - __main__ - ERROR - Error in prepare_data: 'tokens_normalized'
+2024-12-14 13:00:00,039 - __main__ - ERROR - Sample narrative_subnarrative_pairs: [{'narrative': 'Other', 'subnarrative': 'Other'}]
+2024-12-14 13:00:00,041 - __main__ - ERROR - Error in SVM training: 'tokens_normalized'
