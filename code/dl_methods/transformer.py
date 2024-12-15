@@ -2,11 +2,14 @@ import torch
 import wandb
 from transformers import BertTokenizer, BertForSequenceClassification, TrainingArguments, Trainer
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, precision_recall_fscore_support
+from sklearn.metrics import accuracy_score, precision_recall_fscore_support, confusion_matrix
 from datetime import datetime
 import logging
 import os
 import json
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 logger = logging.getLogger(__name__)
 
@@ -127,11 +130,28 @@ def compute_metrics(pred):
     preds = pred.predictions.argmax(-1)
     precision, recall, f1, _ = precision_recall_fscore_support(labels, preds, average="micro")
     acc = accuracy_score(labels, preds)
+
+    # Receiving all unique classes
+    unique_classes = np.unique(labels)
+    cm_per_class = {}
+
+    # Creating Confusion Matrix for each Class
+    for class_idx in unique_classes:
+        binary_labels = (labels == class_idx).astype(int)
+        binary_preds = (preds == class_idx).astype(int)
+
+        cm = confusion_matrix(binary_labels, binary_preds)
+        cm_per_class[f"Class_{class_idx}"] = cm.tolist()
+
+        print(f"Confusion Matrix for Class {class_idx}:")
+        print(cm)
+
     return {
         'accuracy': acc,
         'f1': f1,
         'precision': precision,
-        'recall': recall
+        'recall': recall,
+        'confusion_matrix': cm_per_class
     }
 
 def train_bert(df, base_path, project_name="bert-finetuning", min_examples_per_class=2):
