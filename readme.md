@@ -22,12 +22,14 @@ This repository contains code and data for a Natural Language Processing (NLP) p
     pip install -r code/requirements.txt
     ```
 
-### Usage ---ENTFERNEN ODER FÜR ZUSÄTZLICHE DATEIEN ABÄNDERN?---
+### Usage 
 
 1. Open the Jupyter notebook:
     ```sh
     jupyter notebook code/ms1_1.ipynb
     ```
+    or open the code\non_dl_methods\svm_exp.ipynb notebook to run the svm
+    or open the code\main.py file and run that to do all the preprocessing and BERT training
 
 2. Follow the instructions in the notebook to run the NLP tasks.
 
