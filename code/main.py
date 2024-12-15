@@ -6,7 +6,7 @@ from modules.text_segmentation import tokenize_text, handle_unusual_sentences
 from modules.text_normalization import normalize_text
 from modules.connlu_converter import convert_to_connlu
 from modules.utils import setup_logging
-from dl_methods.transformer import train_bert
+from dl_methods.transformer import train_bert, debug_misclassifications
 import logging
 
 class ProcessingSummary:
@@ -83,13 +83,15 @@ def get_ml_choice():
     print("4. Run all BERT training variations")
     print("5. Convert to CoNLL-U format")
     print("6. Skip additional processing")
+    print("6. Debugging UA")
+    print("6. Debugging CC")
     
     while True:
         try:
-            choice = int(input("\nEnter your choice (1-6): "))
-            if 1 <= choice <= 6:
+            choice = int(input("\nEnter your choice (1-8): "))
+            if 1 <= choice <= 8:
                 return choice
-            print("Please enter a number between 1 and 6.")
+            print("Please enter a number between 1 and 8.")
         except ValueError:
             print("Please enter a valid number.")
 
@@ -131,6 +133,18 @@ def run_selected_ml(choice, df_normalized, df_normalized_ua, df_normalized_cc, d
         convert_to_connlu(df, output_dir, 'tokens')
         summary.add_step('CoNLL-U Conversion', {'output_directory': output_dir})
         logger.info("CoNLL-U conversion completed successfully")
+
+    elif choice == 7:
+        logger.info("Debugging missclassified words with BERT training on UA dataset...")
+        debugging_ua = debug_misclassifications(df_normalized_ua, dataset_type="Training", min_examples_per_class=1)
+        print(debugging_ua)
+        logger.info(f"BERT training on UA data completed. Results: {debugging_ua}")
+
+    elif choice == 8:
+        logger.info("Debugging missclassified words with BERT training on CC dataset...")
+        debugging_cc = debug_misclassifications(df_normalized_cc, dataset_type="Training", min_examples_per_class=1)
+        logger.info(f"BERT training on CC data completed. Results: {debugging_cc}")
+
 
 def main():
     # Initialize processing summary
@@ -174,7 +188,7 @@ def main():
             'ua_documents': len(df_normalized_ua),
             'cc_documents': len(df_normalized_cc)
         })
-
+        print(df_normalized_ua.columns)
         logger.info("Preprocessing completed successfully")
         
         # Document statistics

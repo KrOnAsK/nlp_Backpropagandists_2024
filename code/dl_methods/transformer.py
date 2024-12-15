@@ -10,6 +10,7 @@ import json
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import pandas as pd
 
 logger = logging.getLogger(__name__)
 
@@ -143,8 +144,9 @@ def compute_metrics(pred):
         cm = confusion_matrix(binary_labels, binary_preds)
         cm_per_class[f"Class_{class_idx}"] = cm.tolist()
 
-        print(f"Confusion Matrix for Class {class_idx}:")
+        print(f"\nConfusion Matrix for Class {class_idx}:")
         print(cm)
+
 
     return {
         'accuracy': acc,
@@ -351,3 +353,98 @@ def predict(text, model_path):
     except Exception as e:
         logger.error(f"Error in prediction: {str(e)}")
         raise
+
+
+def debug_misclassifications(dataset, dataset_type="Training", min_examples_per_class=2):
+    """
+    Function to debug misclassified narratives, showing tokens, predictions,
+    actual labels, and the dataset type.
+
+    Args:
+        dataset (DataFrame): The dataset (either training or test) to analyze
+        dataset_type (str): The type of dataset ('Training' or 'Testing')
+        min_examples_per_class (int): Minimum number of examples required for each class
+
+    Returns:
+        misclassification_df (DataFrame): DataFrame with misclassified narratives and their details
+    """
+    try:
+        current_date = datetime.now().strftime("%Y%m%d")
+
+        # Get all narratives and count their frequencies
+        all_narratives = dataset['narrative_subnarrative_pairs'].apply(
+            lambda x: eval(x) if isinstance(x, str) else x
+        ).tolist()
+
+        # Count frequencies of each narrative
+        narrative_counts = {}
+        for narratives in all_narratives:
+            if narratives:
+                narrative_str = str(narratives[0])  # Use first narrative
+                narrative_counts[narrative_str] = narrative_counts.get(narrative_str, 0) + 1
+
+        # Filter narratives that have enough examples
+        valid_narratives = {
+            narrative: count
+            for narrative, count in narrative_counts.items()
+            if count >= min_examples_per_class
+        }
+
+        # Create label mapping only for valid narratives
+        label_mapping = {
+            narrative: idx
+            for idx, narrative in enumerate(sorted(valid_narratives.keys()))
+        }
+
+        # Ensure the model is defined inside the function
+        # Load the pre-trained model and tokenizer
+        tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
+        model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=len(label_mapping))
+
+        # Prepare the dataset for predictions
+        texts = dataset['narrative_subnarrative_pairs'].apply(
+            lambda x: eval(x)[0] if isinstance(x, str) else x[0]).tolist()
+        encodings = tokenizer(texts, truncation=True, padding=True, max_length=512)
+
+        # Create a dataset for inference
+        input_ids = torch.tensor(encodings['input_ids'])
+        attention_mask = torch.tensor(encodings['attention_mask'])
+
+        # Predict using the model
+        with torch.no_grad():
+            outputs = model(input_ids, attention_mask=attention_mask)
+            logits = outputs.logits
+            predictions = torch.argmax(logits, dim=-1)
+
+        # Create a DataFrame to track misclassifications
+        misclassifications = []
+        for idx, row in dataset.iterrows():
+            # Get the actual label
+            actual_label = row['narrative_subnarrative_pairs']
+            actual_label_str = str(eval(actual_label)[0])  # Extract the narrative as a string
+            actual_label_idx = label_mapping.get(actual_label_str, -1)
+
+            # Get the predicted label
+            predicted_label = predictions[idx].item()
+
+            if actual_label_idx != predicted_label:
+                # If the prediction is incorrect, track the details
+                misclassified_narrative = eval(row['narrative_subnarrative_pairs'])[0]  # Get the narrative
+                misclassifications.append({
+                    'narrative': misclassified_narrative,
+                    'predicted_label': predicted_label,
+                    'actual_label': actual_label_idx,
+                    'dataset_type': dataset_type
+                })
+
+        # Create a DataFrame from the misclassified narratives
+        misclassification_df = pd.DataFrame(misclassifications)
+
+        # Log misclassifications (can also be logged in wandb if needed)
+        print(f"Misclassified entries in {dataset_type}:")
+        print(misclassification_df)
+
+        return misclassification_df
+
+    except Exception as e:
+        print(f"Error in debugging misclassifications: {str(e)}")
