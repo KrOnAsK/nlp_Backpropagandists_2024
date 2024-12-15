@@ -43,7 +43,7 @@ You can use the provided VS Code workspace configuration for an enhanced develop
 - modules: various .py files to be used as a preprocessing data pipeline (loading data, text segmentation and normalization, train-test-split, conllu conversion and logging utilities)
 The `training_data_16_October_release` directory contains training data for various languages. The `CoNLL` directory contains output files in CoNLL format.
 - non_dl_methods 
-    - -> keyword_matching: simple approach to the problem using
+    - -> keyword_matching: simple approach to the problem using very rudimentary keyword matching by counting the most used words in each narrative and then matching that to the test set where we count the most used words again and try to match those to the "train" wordcounts -> very bad accuracy and also not really usefull because of the many classes and the severe underrepresentation of some classes
     - -> svm-exp: JN documenting the application of one-vs-rest SVM to the problem
 - main: .py file to execute BERT training
 - ms1_1: JN documenting the main findings relevant for milestone 1 of the project
@@ -56,16 +56,14 @@ The `training_data_16_October_release` directory contains training data for vari
 "info" contains:
 - The task description, label taxonomy files and possibly additional information files
 
-"logs" contains:
-- ---ADD PLEASE---
 "training_data_16_October_release" contains:
 - The data (articles and annotations) specific to the problem with folders for different languages (BG = bulgarian, EN = English, HI = Hindi, PT = Portuguese)
 
 "wandb" contains:
 - Training run documentations generated using the python package wandb
 
-test.conllu: ---ADD---
-train:conllu: ---ADD---
+test.conllu: is the output file of the train_test_split function wher we split the whole conllu dataset into a train and test subset
+train:conllu:  is the output file of the train_test_split function wher we split the whole conllu dataset into a train and test subset
 
 ## Outlook
 Status 15.12.2024: The project will be continued mainly by adjusting the existing solutions to better address the specific challenges of the problem, for example:
