@@ -191,7 +191,7 @@ def main():
         input_file_full = "df_normalized.csv"
         df_normalized = pd.read_csv(input_file_full)
         df = pd.read_csv(input_file_full)
-        input_file_ua = "df_normalized_ua_no_en.csv"
+        input_file_ua = "df_normalized_ua.csv"
         df_normalized_ua = pd.read_csv(input_file_ua)
         input_file_cc = "df_normalized_cc.csv"
         df_normalized_cc = pd.read_csv(input_file_cc)
