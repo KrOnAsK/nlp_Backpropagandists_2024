@@ -83,8 +83,8 @@ def get_ml_choice():
     print("4. Run all BERT training variations")
     print("5. Convert to CoNLL-U format")
     print("6. Skip additional processing")
-    print("6. Debugging UA")
-    print("6. Debugging CC")
+    print("7. Debugging UA")
+    print("8. Debugging CC")
     
     while True:
         try:
