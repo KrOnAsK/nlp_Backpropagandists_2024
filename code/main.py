@@ -188,12 +188,12 @@ def main():
             'average_tokens_per_doc': df['tokens'].str.len().mean() if 'tokens' in df.columns else None
         }
         '''
-        input_file_full = "df_normalized.csv"
+        input_file_full = os.path.join(base_path, "df_normalized.csv")
         df_normalized = pd.read_csv(input_file_full)
         df = pd.read_csv(input_file_full)
-        input_file_ua = "df_normalized_ua.csv"
+        input_file_ua = os.path.join(base_path, "df_normalized_ua.csv")
         df_normalized_ua = pd.read_csv(input_file_ua)
-        input_file_cc = "df_normalized_cc.csv"
+        input_file_cc = os.path.join(base_path, "df_normalized_cc3.csv")
         df_normalized_cc = pd.read_csv(input_file_cc)
         # Get user input for ML approach
         choice = get_ml_choice()

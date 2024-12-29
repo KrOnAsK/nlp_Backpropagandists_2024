@@ -1,5 +1,5 @@
 # Ignore preprocessing log files
-preprocessing_*.log
+#preprocessing_*.log
 
 # Ignore wandb directory
 wandb/
