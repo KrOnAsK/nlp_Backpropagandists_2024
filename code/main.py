@@ -83,15 +83,13 @@ def get_ml_choice():
     print("4. Run all BERT training variations")
     print("5. Convert to CoNLL-U format")
     print("6. Skip additional processing")
-    print("6. Debugging UA")
-    print("6. Debugging CC")
     
     while True:
         try:
-            choice = int(input("\nEnter your choice (1-8): "))
-            if 1 <= choice <= 8:
+            choice = int(input("\nEnter your choice (1-6): "))
+            if 1 <= choice <= 6:
                 return choice
-            print("Please enter a number between 1 and 8.")
+            print("Please enter a number between 1 and 6.")
         except ValueError:
             print("Please enter a valid number.")
 
@@ -134,17 +132,6 @@ def run_selected_ml(choice, df_normalized, df_normalized_ua, df_normalized_cc, d
         summary.add_step('CoNLL-U Conversion', {'output_directory': output_dir})
         logger.info("CoNLL-U conversion completed successfully")
 
-    elif choice == 7:
-        logger.info("Debugging missclassified words with BERT training on UA dataset...")
-        debugging_ua = debug_misclassifications(df_normalized_ua, dataset_type="Training", min_examples_per_class=1)
-        print(debugging_ua)
-        logger.info(f"BERT training on UA data completed. Results: {debugging_ua}")
-
-    elif choice == 8:
-        logger.info("Debugging missclassified words with BERT training on CC dataset...")
-        debugging_cc = debug_misclassifications(df_normalized_cc, dataset_type="Training", min_examples_per_class=1)
-        logger.info(f"BERT training on CC data completed. Results: {debugging_cc}")
-
 
 def main():
     # Initialize processing summary
@@ -164,6 +151,7 @@ def main():
     os.makedirs(output_dir, exist_ok=True)
 
     try:
+        '''
         # 1. Load and prepare initial data
         logger.info("Loading initial data...")
         df = load_initial_data(documents_path, annotations_file)
@@ -198,7 +186,14 @@ def main():
             'cc_documents': len(df_normalized_cc),
             'average_tokens_per_doc': df['tokens'].str.len().mean() if 'tokens' in df.columns else None
         }
-
+        '''
+        input_file_full = "df_normalized.csv"
+        df_normalized = pd.read_csv(input_file_full)
+        df = pd.read_csv(input_file_full)
+        input_file_ua = "df_normalized_ua_no_en.csv"
+        df_normalized_ua = pd.read_csv(input_file_ua)
+        input_file_cc = "df_normalized_cc.csv"
+        df_normalized_cc = pd.read_csv(input_file_cc)
         # Get user input for ML approach
         choice = get_ml_choice()
         
