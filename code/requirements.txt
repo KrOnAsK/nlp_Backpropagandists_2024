@@ -13,3 +13,5 @@ transformers  # for BERT
 
 wandb
 accelerate
+sentencepiece
+bitsandbytes
