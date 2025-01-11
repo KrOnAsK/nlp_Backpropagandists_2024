@@ -13,3 +13,4 @@ transformers  # for BERT
 
 wandb
 accelerate
+seaborn

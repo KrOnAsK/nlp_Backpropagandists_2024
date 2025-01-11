@@ -1,0 +1,65 @@
+2025-01-10 22:36:21,250 - __main__ - INFO - Starting SVM training with TF-IDF on Ukraine War data...
+2025-01-10 22:36:21,287 - __main__ - INFO - Created mapping for 50 unique narratives
+2025-01-10 22:36:21,321 - __main__ - INFO - Number of unique labels in mapping: 50
+2025-01-10 22:36:21,321 - __main__ - INFO - Sample text: ['russia', 'clash', 'erupt', 'bashkortostan', 'right', 'activist', 'sentence', 'russian', 'riot', 'p
+2025-01-10 22:36:21,325 - __main__ - INFO - Sample label: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-01-10 22:36:21,896 - __main__ - INFO - Model saved to c:\Users\leonb\OneDrive\Dokumente\Studium\Master\Sem1\NLP and InfExt\practical\nlp_Backpropagandists_2024\code/models/svm_model.joblib
+2025-01-10 22:36:21,967 - __main__ - INFO - SVM training completed.
+2025-01-10 22:36:21,988 - __main__ - INFO - Starting SVM training with TF-IDF on Climate Change data...
+2025-01-10 22:36:21,999 - __main__ - INFO - Created mapping for 46 unique narratives
+2025-01-10 22:36:22,018 - __main__ - INFO - Number of unique labels in mapping: 46
+2025-01-10 22:36:22,018 - __main__ - INFO - Sample text: ['bill', 'gate', 'say', 'solution', 'climate', 'change', 'ok', 'four', 'private', 'jet', 'bill', 'ga
+2025-01-10 22:36:22,018 - __main__ - INFO - Sample label: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-01-10 22:36:22,303 - __main__ - INFO - Model saved to c:\Users\leonb\OneDrive\Dokumente\Studium\Master\Sem1\NLP and InfExt\practical\nlp_Backpropagandists_2024\code/models/svm_model.joblib
+2025-01-10 22:36:22,348 - __main__ - INFO - SVM training completed.
+2025-01-10 22:36:22,370 - __main__ - INFO - Starting SVM training with TF-IDF on the complete data...
+2025-01-10 22:36:22,415 - __main__ - INFO - Created mapping for 94 unique narratives
+2025-01-10 22:36:22,450 - __main__ - INFO - Number of unique labels in mapping: 94
+2025-01-10 22:36:22,455 - __main__ - INFO - Sample text: ['bill', 'gate', 'say', 'solution', 'climate', 'change', 'ok', 'four', 'private', 'jet', 'bill', 'ga
+2025-01-10 22:36:22,455 - __main__ - INFO - Sample label: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-01-10 22:36:23,451 - __main__ - INFO - Model saved to c:\Users\leonb\OneDrive\Dokumente\Studium\Master\Sem1\NLP and InfExt\practical\nlp_Backpropagandists_2024\code/models/svm_model.joblib
+2025-01-10 22:36:23,566 - __main__ - INFO - SVM training completed.
+2025-01-10 22:36:23,584 - __main__ - INFO - Starting SVM training with Bag-Of-Words on Ukraine War data...
+2025-01-10 22:36:23,612 - __main__ - INFO - Created mapping for 50 unique narratives
+2025-01-10 22:36:23,645 - __main__ - INFO - Number of unique labels in mapping: 50
+2025-01-10 22:36:23,646 - __main__ - INFO - Sample text: ['russia', 'clash', 'erupt', 'bashkortostan', 'right', 'activist', 'sentence', 'russian', 'riot', 'p
+2025-01-10 22:36:23,647 - __main__ - INFO - Sample label: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-01-10 22:36:27,210 - __main__ - INFO - Model saved to c:\Users\leonb\OneDrive\Dokumente\Studium\Master\Sem1\NLP and InfExt\practical\nlp_Backpropagandists_2024\code/models/svm_model.joblib
+2025-01-10 22:36:27,355 - __main__ - INFO - SVM training completed.
+2025-01-10 22:36:27,366 - __main__ - INFO - Starting SVM training with Bag-Of-Words on Climate Change data...
+2025-01-10 22:36:27,381 - __main__ - INFO - Created mapping for 46 unique narratives
+2025-01-10 22:36:27,395 - __main__ - INFO - Number of unique labels in mapping: 46
+2025-01-10 22:36:27,396 - __main__ - INFO - Sample text: ['bill', 'gate', 'say', 'solution', 'climate', 'change', 'ok', 'four', 'private', 'jet', 'bill', 'ga
+2025-01-10 22:36:27,397 - __main__ - INFO - Sample label: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-01-10 22:36:28,628 - __main__ - INFO - Model saved to c:\Users\leonb\OneDrive\Dokumente\Studium\Master\Sem1\NLP and InfExt\practical\nlp_Backpropagandists_2024\code/models/svm_model.joblib
+2025-01-10 22:36:28,696 - __main__ - INFO - SVM training completed.
+2025-01-10 22:36:28,716 - __main__ - INFO - Starting SVM training with Bag-Of-Words on the complete data...
+2025-01-10 22:36:28,756 - __main__ - INFO - Created mapping for 94 unique narratives
+2025-01-10 22:36:28,795 - __main__ - INFO - Number of unique labels in mapping: 94
+2025-01-10 22:36:28,796 - __main__ - INFO - Sample text: ['bill', 'gate', 'say', 'solution', 'climate', 'change', 'ok', 'four', 'private', 'jet', 'bill', 'ga
+2025-01-10 22:36:28,797 - __main__ - INFO - Sample label: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-01-10 22:36:36,034 - __main__ - INFO - Model saved to c:\Users\leonb\OneDrive\Dokumente\Studium\Master\Sem1\NLP and InfExt\practical\nlp_Backpropagandists_2024\code/models/svm_model.joblib
+2025-01-10 22:36:36,354 - __main__ - INFO - SVM training completed.
+2025-01-10 22:36:36,364 - __main__ - INFO - Starting SVM training with Multilingual Embeddings on Ukraine War data...
+2025-01-10 22:36:36,398 - __main__ - INFO - Created mapping for 50 unique narratives
+2025-01-10 22:36:36,428 - __main__ - INFO - Number of unique labels in mapping: 50
+2025-01-10 22:36:36,430 - __main__ - INFO - Sample text: ['russia', 'clash', 'erupt', 'bashkortostan', 'right', 'activist', 'sentence', 'russian', 'riot', 'p
+2025-01-10 22:36:36,430 - __main__ - INFO - Sample label: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-01-10 22:36:42,212 - __main__ - INFO - Model saved to c:\Users\leonb\OneDrive\Dokumente\Studium\Master\Sem1\NLP and InfExt\practical\nlp_Backpropagandists_2024\code/models/svm_model.joblib
+2025-01-10 22:36:42,327 - __main__ - INFO - SVM training completed.
+2025-01-10 22:36:42,342 - __main__ - INFO - Starting SVM training with Multilingual Embeddings on Climate Change data...
+2025-01-10 22:36:42,353 - __main__ - INFO - Created mapping for 46 unique narratives
+2025-01-10 22:36:42,370 - __main__ - INFO - Number of unique labels in mapping: 46
+2025-01-10 22:36:42,371 - __main__ - INFO - Sample text: ['bill', 'gate', 'say', 'solution', 'climate', 'change', 'ok', 'four', 'private', 'jet', 'bill', 'ga
+2025-01-10 22:36:42,371 - __main__ - INFO - Sample label: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-01-10 22:36:48,994 - __main__ - INFO - Model saved to c:\Users\leonb\OneDrive\Dokumente\Studium\Master\Sem1\NLP and InfExt\practical\nlp_Backpropagandists_2024\code/models/svm_model.joblib
+2025-01-10 22:36:49,047 - __main__ - INFO - SVM training completed.
+2025-01-10 22:36:49,068 - __main__ - INFO - Starting SVM training with Multilingual Embeddings on the complete data...
+2025-01-10 22:36:49,132 - __main__ - INFO - Created mapping for 94 unique narratives
+2025-01-10 22:36:49,201 - __main__ - INFO - Number of unique labels in mapping: 94
+2025-01-10 22:36:49,201 - __main__ - INFO - Sample text: ['bill', 'gate', 'say', 'solution', 'climate', 'change', 'ok', 'four', 'private', 'jet', 'bill', 'ga
+2025-01-10 22:36:49,201 - __main__ - INFO - Sample label: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-01-10 22:37:00,386 - __main__ - INFO - Model saved to c:\Users\leonb\OneDrive\Dokumente\Studium\Master\Sem1\NLP and InfExt\practical\nlp_Backpropagandists_2024\code/models/svm_model.joblib
+2025-01-10 22:37:00,580 - __main__ - INFO - SVM training completed.
+2025-01-10 22:37:01,681 - __main__ - INFO - Created mapping for 94 unique narratives
+2025-01-10 22:39:09,297 - __main__ - INFO - Created mapping for 94 unique narratives
