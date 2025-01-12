@@ -193,7 +193,7 @@ def main():
         df = pd.read_csv(input_file_full)
         input_file_ua = os.path.join(base_path, "df_normalized_ua.csv")
         df_normalized_ua = pd.read_csv(input_file_ua)
-        input_file_cc = os.path.join(base_path, "df_normalized_cc3.csv")
+        input_file_cc = os.path.join(base_path, "df_normalized_cc.csv")
         df_normalized_cc = pd.read_csv(input_file_cc)
         # Get user input for ML approach
         choice = get_ml_choice()
