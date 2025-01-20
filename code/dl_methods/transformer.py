@@ -11,6 +11,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
+from modules.utils import compute_metrics
 
 logger = logging.getLogger(__name__)
 
@@ -117,44 +118,7 @@ def prepare_data(df, label_mapping=None):
         logger.error(f"Sample narrative_subnarrative_pairs: {df['narrative_subnarrative_pairs'].iloc[0]}")
         raise
 
-def compute_metrics(pred):
-    """
-    Compute evaluation metrics
-    
-    Args:
-        pred: Prediction object from trainer
-    
-    Returns:
-        dict: Dictionary containing computed metrics
-    """
-    labels = pred.label_ids
-    preds = pred.predictions.argmax(-1)
-    precision, recall, f1, _ = precision_recall_fscore_support(labels, preds, average="micro")
-    acc = accuracy_score(labels, preds)
 
-    # Receiving all unique classes
-    unique_classes = np.unique(labels)
-    cm_per_class = {}
-
-    # Creating Confusion Matrix for each Class
-    for class_idx in unique_classes:
-        binary_labels = (labels == class_idx).astype(int)
-        binary_preds = (preds == class_idx).astype(int)
-
-        cm = confusion_matrix(binary_labels, binary_preds)
-        cm_per_class[f"Class_{class_idx}"] = cm.tolist()
-
-        print(f"\nConfusion Matrix for Class {class_idx}:")
-        print(cm)
-
-
-    return {
-        'accuracy': acc,
-        'f1': f1,
-        'precision': precision,
-        'recall': recall,
-        'confusion_matrix': cm_per_class
-    }
 
 def train_bert(df, base_path, project_name="bert-finetuning", min_examples_per_class=2):
     """

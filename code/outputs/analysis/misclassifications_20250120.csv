@@ -1,0 +1,1372 @@
+narrative,predicted_label,actual_label,dataset_type
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Ad hominem attacks on key activists'}",29,5,Training
+"{'narrative': 'Questioning the measurements and science', 'subnarrative': 'Scientific community is unreliable'}",29,31,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Other'}",29,8,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Russian army is collapsing'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Ad hominem attacks on key activists'}",29,5,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Russia will also attack other countries'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Weather suggests the trend is global cooling'}",29,24,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Russian army is collapsing'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Diplomacy does/will not work'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Other'}",29,17,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is overreacting'}",29,-1,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Sanctions imposed by Western countries will backfire'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Sanctions imposed by Western countries will backfire'}",29,-1,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Other'}",29,28,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Blaming global elites'}",29,26,Training
+"{'narrative': 'Questioning the measurements and science', 'subnarrative': 'Scientific community is unreliable'}",29,31,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Questioning the measurements and science', 'subnarrative': 'Scientific community is unreliable'}",29,31,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is associated with nazism'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies are only for profit'}",29,10,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Distrust towards Media', 'subnarrative': 'Western media is an instrument of propaganda'}",29,-1,Training
+"{'narrative': 'Overpraising the West', 'subnarrative': 'The West belongs in the right side of history'}",29,-1,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Climate agenda has hidden motives'}",29,27,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Questioning the measurements and science', 'subnarrative': 'Scientific community is unreliable'}",29,31,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Ukrainian army is collapsing'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'West is tired of Ukraine'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Russian army is collapsing'}",29,-1,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Human activities do not impact climate change'}",29,19,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Other'}",29,28,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Climate agenda has hidden motives'}",29,27,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a hub for criminal activities'}",0,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Climate agenda has hidden motives'}",29,27,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Sanctions imposed by Western countries will backfire'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of international entities'}",29,13,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a hub for criminal activities'}",0,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Other'}",29,28,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Climate movement is alarmist'}",29,6,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Ukrainian army is collapsing'}",29,-1,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Climate agenda has hidden motives'}",29,27,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Human activities do not impact climate change'}",29,19,Training
+"{'narrative': 'Green policies are geopolitical instruments', 'subnarrative': 'Green activities are a form of neo-colonialism'}",29,25,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies are only for profit'}",29,10,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies have negative impact on the economy'}",29,11,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Diplomacy does/will not work'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Other'}",29,28,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of international entities'}",29,13,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'West is tired of Ukraine'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Distrust towards Media', 'subnarrative': 'Western media is an instrument of propaganda'}",29,-1,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies are ineffective'}",29,9,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Other'}",29,22,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Questioning the measurements and science', 'subnarrative': 'Scientific community is unreliable'}",29,31,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Other'}",29,28,Training
+"{'narrative': 'Overpraising the West', 'subnarrative': 'The West belongs in the right side of history'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Climate agenda has hidden motives'}",29,27,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russian invasion has strong national support'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of international entities'}",29,13,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Ad hominem attacks on key activists'}",29,5,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Sanctions imposed by Western countries will backfire'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Diplomacy does/will not work'}",29,-1,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Blaming global elites'}",29,26,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies are only for profit'}",29,10,Training
+"{'narrative': 'Distrust towards Media', 'subnarrative': 'Western media is an instrument of propaganda'}",29,-1,Training
+"{'narrative': 'Green policies are geopolitical instruments', 'subnarrative': 'Green activities are a form of neo-colonialism'}",29,25,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'West is tired of Ukraine'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Russian army is collapsing'}",29,-1,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Climate movement is alarmist'}",29,6,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Russia actions in Ukraine are only self-defence'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of international entities'}",29,13,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Ice is not melting'}",29,21,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'West is tired of Ukraine'}",29,-1,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Ad hominem attacks on key activists'}",29,5,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Distrust towards Media', 'subnarrative': 'Western media is an instrument of propaganda'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is weak'}",29,-1,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Other'}",29,8,Training
+"{'narrative': 'Distrust towards Media', 'subnarrative': 'Western media is an instrument of propaganda'}",29,-1,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Blaming global elites'}",29,26,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of international entities'}",29,13,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Sanctions imposed by Western countries will backfire'}",29,-1,Training
+"{'narrative': 'Questioning the measurements and science', 'subnarrative': 'Methodologies/metrics used are unreliable/faulty'}",29,30,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Other'}",29,12,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Ad hominem attacks on key activists'}",29,5,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Ad hominem attacks on key activists'}",29,5,Training
+"{'narrative': 'Distrust towards Media', 'subnarrative': 'Western media is an instrument of propaganda'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies are ineffective'}",29,9,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is weak'}",29,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies have negative impact on the economy'}",29,11,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Overpraising the West', 'subnarrative': 'The West belongs in the right side of history'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'West is tired of Ukraine'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is weak'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Distrust towards Media', 'subnarrative': 'Western media is an instrument of propaganda'}",29,-1,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Other'}",29,22,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of international entities'}",29,13,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Blaming global elites'}",29,26,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Other'}",29,12,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is weak'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Controversy about green technologies', 'subnarrative': 'Other'}",29,4,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is weak'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies have negative impact on the economy'}",29,11,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Climate agenda has hidden motives'}",29,27,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies have negative impact on the economy'}",29,11,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Other'}",29,8,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is overreacting'}",29,-1,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Climate movement is alarmist'}",29,6,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Other'}",29,8,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Diplomacy does/will not work'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Russia will also attack other countries'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Other'}",29,8,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Diplomacy does/will not work'}",29,-1,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Other'}",29,28,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of the EU'}",29,16,Training
+"{'narrative': 'Questioning the measurements and science', 'subnarrative': 'Methodologies/metrics used are unreliable/faulty'}",29,30,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Climate agenda has hidden motives'}",29,27,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Other'}",29,22,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Russia will also attack other countries'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Overpraising the West', 'subnarrative': 'The West belongs in the right side of history'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Sanctions imposed by Western countries will backfire'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Climate movement is alarmist'}",29,6,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies are only for profit'}",29,10,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Diplomacy does/will not work'}",29,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'West is tired of Ukraine'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Russia will also attack other countries'}",29,-1,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Ad hominem attacks on key activists'}",29,5,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Other'}",29,28,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Sanctions imposed by Western countries will backfire'}",29,-1,Training
+"{'narrative': 'Controversy about green technologies', 'subnarrative': 'Renewable energy is unreliable'}",29,-1,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Blaming global elites'}",29,26,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Other'}",29,8,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Ice is not melting'}",29,21,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'UA is anti-RU extremists'}",29,-1,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Other'}",29,8,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies have negative impact on the economy'}",29,11,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Climate movement is alarmist'}",29,6,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Sanctions imposed by Western countries will backfire'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Russia actions in Ukraine are only self-defence'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is associated with nazism'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian nation and society'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Russia actions in Ukraine are only self-defence'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is weak'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Distrust towards Media', 'subnarrative': 'Western media is an instrument of propaganda'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is associated with nazism'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Distrust towards Media', 'subnarrative': 'Western media is an instrument of propaganda'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is overreacting'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'UA is anti-RU extremists'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is overreacting'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is weak'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Russia actions in Ukraine are only self-defence'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian nation and society'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The EU is divided'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Russia actions in Ukraine are only self-defence'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Ukrainian army is collapsing'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is weak'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Russia actions in Ukraine are only self-defence'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Ukrainian army is collapsing'}",29,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Situation in Ukraine is hopeless'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Ukrainian army is collapsing'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian nation and society'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'UA is anti-RU extremists'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Situation in Ukraine is hopeless'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is weak'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Distrust towards Media', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian President Vladimir Putin'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'West is tired of Ukraine'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is weak'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Earth will be uninhabitable soon'}",29,2,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Diplomacy does/will not work'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The EU is divided'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Russia will also attack other countries'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Other'}",29,17,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The EU is divided'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Distrust towards Media', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Diplomacy does/will not work'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Doomsday scenarios for humans'}",29,1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian President Vladimir Putin'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Situation in Ukraine is hopeless'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Situation in Ukraine is hopeless'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian President Vladimir Putin'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of international entities'}",29,13,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Russian army is collapsing'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The EU is divided'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'NATO should/will directly intervene'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is associated with nazism'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Controversy about green technologies', 'subnarrative': 'Renewable energy is dangerous'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is associated with nazism'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Ukrainian army is collapsing'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The EU is divided'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Russia will also attack other countries'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Climate agenda has hidden motives'}",29,27,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Situation in Ukraine is hopeless'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Situation in Ukraine is hopeless'}",0,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian President Vladimir Putin'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Earth will be uninhabitable soon'}",29,2,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Ukrainian army is collapsing'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is weak'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Russia will also attack other countries'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is associated with nazism'}",29,-1,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies have negative impact on the economy'}",29,11,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Earth will be uninhabitable soon'}",29,2,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian President Vladimir Putin'}",0,-1,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies are only for profit'}",29,10,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies have negative impact on the economy'}",29,11,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is weak'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is weak'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Situation in Ukraine is hopeless'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The EU is divided'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The EU is divided'}",29,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The EU is divided'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Situation in Ukraine is hopeless'}",0,-1,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Human activities do not impact climate change'}",29,19,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies have negative impact on the economy'}",29,11,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Temperature increase does not have significant impact'}",29,23,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Situation in Ukraine is hopeless'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Other'}",29,28,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Russia will also attack other countries'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is weak'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Climate cycles are natural'}",29,18,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The EU is divided'}",29,-1,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies have negative impact on the economy'}",29,11,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Earth will be uninhabitable soon'}",29,2,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Weather suggests the trend is global cooling'}",29,24,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies have negative impact on the economy'}",29,11,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The EU is divided'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Climate cycles are natural'}",29,18,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies have negative impact on the economy'}",29,11,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Russia will also attack other countries'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Russian army is collapsing'}",29,-1,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'UA is anti-RU extremists'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Ukrainian army is collapsing'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Russian army is collapsing'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Situation in Ukraine is hopeless'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is weak'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Climate change is beneficial', 'subnarrative': 'Temperature increase is beneficial'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Russian army is collapsing'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Russia will also attack other countries'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Russia will also attack other countries'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian nation and society'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Doomsday scenarios for humans'}",29,1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Ice is not melting'}",29,21,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Russia will also attack other countries'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russian invasion has strong national support'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Rewriting Ukraine’s history'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Blaming global elites'}",29,26,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies are ineffective'}",29,9,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The EU is divided'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Russian army is collapsing'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of international entities'}",29,13,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Russia will also attack other countries'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Diplomacy does/will not work'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Russian army is collapsing'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Russia will also attack other countries'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Temperature increase does not have significant impact'}",29,23,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a hub for criminal activities'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Russia will also attack other countries'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Russia will also attack other countries'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Controversy about green technologies', 'subnarrative': 'Renewable energy is costly'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a hub for criminal activities'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Ukrainian army is collapsing'}",29,-1,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Earth will be uninhabitable soon'}",29,2,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Russian army is collapsing'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Ukrainian army is collapsing'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies have negative impact on the economy'}",29,11,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Russia will also attack other countries'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian President Vladimir Putin'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is weak'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Ukrainian army is collapsing'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a hub for criminal activities'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of the EU'}",29,16,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Situation in Ukraine is hopeless'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Situation in Ukraine is hopeless'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Doomsday scenarios for humans'}",29,1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Ukrainian army is collapsing'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian President Vladimir Putin'}",0,-1,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Weather suggests the trend is global cooling'}",29,24,Training
+"{'narrative': 'Distrust towards Media', 'subnarrative': 'Western media is an instrument of propaganda'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Sanctions imposed by Western countries will backfire'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Earth will be uninhabitable soon'}",29,2,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Other'}",29,8,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Other'}",29,22,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Climate cycles are natural'}",29,18,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Other'}",29,12,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a hub for criminal activities'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is weak'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a hub for criminal activities'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Humans and nature will adapt to the changes'}",29,20,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Other'}",29,22,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Doomsday scenarios for humans'}",29,1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Situation in Ukraine is hopeless'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Climate movement is alarmist'}",29,6,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is associated with nazism'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Other'}",29,12,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Other'}",29,22,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'West is tired of Ukraine'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is weak'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Earth will be uninhabitable soon'}",29,2,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Doomsday scenarios for humans'}",29,1,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Other'}",29,12,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Diplomacy does/will not work'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Doomsday scenarios for humans'}",29,1,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Other'}",29,22,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a hub for criminal activities'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies are ineffective'}",29,9,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Russia actions in Ukraine are only self-defence'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Doomsday scenarios for humans'}",29,1,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Doomsday scenarios for humans'}",29,1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Climate change is beneficial', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Situation in Ukraine is hopeless'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Ad hominem attacks on key activists'}",29,5,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of international entities'}",29,13,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Climate cycles are natural'}",29,18,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Other'}",29,28,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of international entities'}",29,13,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies have negative impact on the economy'}",29,11,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Doomsday scenarios for humans'}",29,1,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Doomsday scenarios for humans'}",29,1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian President Vladimir Putin'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Earth will be uninhabitable soon'}",29,2,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Climate movement is corrupt'}",29,7,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies have negative impact on the economy'}",29,11,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a hub for criminal activities'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Other'}",29,17,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of international entities'}",29,13,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Russia actions in Ukraine are only self-defence'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Climate movement is corrupt'}",29,7,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Other'}",29,22,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Controversy about green technologies', 'subnarrative': 'Other'}",29,4,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is weak'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a hub for criminal activities'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'UA is anti-RU extremists'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies are ineffective'}",29,9,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Climate agenda has hidden motives'}",29,27,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Situation in Ukraine is hopeless'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Russia will also attack other countries'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Other'}",29,17,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies have negative impact on the economy'}",29,11,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Earth will be uninhabitable soon'}",29,2,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Ad hominem attacks on key activists'}",29,5,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Doomsday scenarios for humans'}",29,1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a hub for criminal activities'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Other'}",29,8,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Situation in Ukraine is hopeless'}",0,-1,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies have negative impact on the economy'}",29,11,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Russia actions in Ukraine are only self-defence'}",0,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Sanctions imposed by Western countries will backfire'}",29,-1,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Other'}",29,12,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Climate movement is alarmist'}",29,6,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Other'}",29,12,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Doomsday scenarios for humans'}",29,1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Diplomacy does/will not work'}",29,-1,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Ad hominem attacks on key activists'}",29,5,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a hub for criminal activities'}",0,-1,Training
+"{'narrative': 'Criticism of climate policies', 'subnarrative': 'Climate policies are ineffective'}",29,9,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is associated with nazism'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Earth will be uninhabitable soon'}",29,2,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Questioning the measurements and science', 'subnarrative': 'Scientific community is unreliable'}",29,31,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a hub for criminal activities'}",0,-1,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Other'}",29,22,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Other'}",29,22,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Criticism of climate movement', 'subnarrative': 'Other'}",29,8,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of political organizations and figures'}",29,15,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'NATO should/will directly intervene'}",29,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Criticism of national governments'}",29,14,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian President Vladimir Putin'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian President Vladimir Putin'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian President Vladimir Putin'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Russia actions in Ukraine are only self-defence'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Ukrainian army is collapsing'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Temperature increase does not have significant impact'}",29,23,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Ukrainian army is collapsing'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Diplomacy does/will not work'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian President Vladimir Putin'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Sanctions imposed by Western countries will backfire'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Controversy about green technologies', 'subnarrative': 'Other'}",29,4,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Russia will also attack other countries'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Sanctions imposed by Western countries will backfire'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian President Vladimir Putin'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is weak'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian President Vladimir Putin'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian President Vladimir Putin'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Ukrainian army is collapsing'}",29,-1,Training
+"{'narrative': 'Overpraising the West', 'subnarrative': 'The West belongs in the right side of history'}",29,-1,Training
+"{'narrative': 'Overpraising the West', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West is weak'}",29,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Distrust towards Media', 'subnarrative': 'Western media is an instrument of propaganda'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian President Vladimir Putin'}",0,-1,Training
+"{'narrative': 'Downplaying climate change', 'subnarrative': 'Humans and nature will adapt to the changes'}",29,20,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Doomsday scenarios for humans'}",29,1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Other'}",29,28,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Sanctions imposed by Western countries will backfire'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'NATO should/will directly intervene'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Situation in Ukraine is hopeless'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian President Vladimir Putin'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'NATO should/will directly intervene'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Overpraising the West', 'subnarrative': 'NATO will destroy Russia'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Russia actions in Ukraine are only self-defence'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Russia actions in Ukraine are only self-defence'}",0,-1,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Other'}",29,28,Training
+"{'narrative': 'Distrust towards Media', 'subnarrative': 'Western media is an instrument of propaganda'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian President Vladimir Putin'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'UA is anti-RU extremists'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Earth will be uninhabitable soon'}",29,2,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian government and officials and policies'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Ukrainian army is collapsing'}",29,-1,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Sanctions imposed by Western countries will backfire'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Situation in Ukraine is hopeless'}",0,-1,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Other'}",29,28,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Situation in Ukraine is hopeless'}",0,-1,Training
+"{'narrative': 'Distrust towards Media', 'subnarrative': 'Western media is an instrument of propaganda'}",29,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Russia actions in Ukraine are only self-defence'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Overpraising the West', 'subnarrative': 'The West has the strongest international support'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Overpraising the West', 'subnarrative': 'The West has the strongest international support'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Sanctions imposed by Western countries will backfire'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'Russia will also attack other countries'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Overpraising the West', 'subnarrative': 'NATO will destroy Russia'}",29,-1,Training
+"{'narrative': 'Distrust towards Media', 'subnarrative': 'Western media is an instrument of propaganda'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'West is tired of Ukraine'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Russian army is collapsing'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Distrust towards Media', 'subnarrative': 'Western media is an instrument of propaganda'}",29,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'The West does not care about Ukraine, only about its interests'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian President Vladimir Putin'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Situation in Ukraine is hopeless'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Discrediting Ukrainian military'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Russian army is collapsing'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Distrust towards Media', 'subnarrative': 'Western media is an instrument of propaganda'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Diplomacy does/will not work'}",29,-1,Training
+"{'narrative': 'Hidden plots by secret schemes of powerful groups', 'subnarrative': 'Other'}",29,28,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Doomsday scenarios for humans'}",29,1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian military might'}",0,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Diplomacy does/will not work'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Situation in Ukraine is hopeless'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Overpraising the West', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Overpraising the West', 'subnarrative': 'NATO will destroy Russia'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Other'}",29,3,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian President Vladimir Putin'}",0,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Whatever we do it is already too late'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Diplomacy does/will not work'}",29,-1,Training
+"{'narrative': 'Distrust towards Media', 'subnarrative': 'Western media is an instrument of propaganda'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Russia actions in Ukraine are only self-defence'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Russian army is collapsing'}",29,-1,Training
+"{'narrative': 'Distrust towards Media', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Overpraising the West', 'subnarrative': 'The West has the strongest international support'}",29,-1,Training
+"{'narrative': 'Distrust towards Media', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian President Vladimir Putin'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Russian army is collapsing'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Distrust towards Media', 'subnarrative': 'Western media is an instrument of propaganda'}",29,-1,Training
+"{'narrative': 'Discrediting the West, Diplomacy', 'subnarrative': 'Diplomacy does/will not work'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Situation in Ukraine is hopeless'}",0,-1,Training
+"{'narrative': 'Criticism of institutions and authorities', 'subnarrative': 'Other'}",29,17,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'By continuing the war we risk WWIII'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia is a guarantor of peace and prosperity'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Doomsday scenarios for humans'}",29,1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Distrust towards Media', 'subnarrative': 'Western media is an instrument of propaganda'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'The West are the aggressors'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Ukraine is a puppet of the West'}",0,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'Russia actions in Ukraine are only self-defence'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Praise of Russian President Vladimir Putin'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Situation in Ukraine is hopeless'}",0,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Russia is the Victim', 'subnarrative': 'The West is russophobic'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Amplifying war-related fears', 'subnarrative': 'There is a real possibility that nuclear weapons will be employed'}",29,-1,Training
+"{'narrative': 'Blaming the war on others rather than the invader', 'subnarrative': 'Ukraine is the aggressor'}",29,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Other'}",29,-1,Training
+"{'narrative': 'Discrediting Ukraine', 'subnarrative': 'Situation in Ukraine is hopeless'}",0,-1,Training
+"{'narrative': 'Speculating war outcomes', 'subnarrative': 'Ukrainian army is collapsing'}",29,-1,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Amplifying Climate Fears', 'subnarrative': 'Amplifying existing fears of global warming'}",29,0,Training
+"{'narrative': 'Praise of Russia', 'subnarrative': 'Russia has international support from a number of countries and people'}",0,-1,Training
+"{'narrative': 'Negative Consequences for the West', 'subnarrative': 'Other'}",29,-1,Training

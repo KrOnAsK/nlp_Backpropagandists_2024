@@ -1,5 +1,6 @@
 # Ignore preprocessing log files
-#preprocessing_*.log
+preprocessing_*.log
+
 
 # Ignore wandb directory
 wandb/
@@ -8,7 +9,7 @@ wandb/
 logs/
 
 code/models/bert*/
-
+code/models/llama*/
 
 # Ignore Python compiled files
 *.pyc

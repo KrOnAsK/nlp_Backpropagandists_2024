@@ -4,15 +4,17 @@ nltk
 requests
 stanza
 torch
+scipy
+seaborn
 
 tqdm
 scikit-learn
 
 conllu  # for CoNLL-U parsing
 transformers  # for BERT
-
+peft 
+datasets 
 wandb
 accelerate
 sentencepiece
 bitsandbytes
-seaborn
