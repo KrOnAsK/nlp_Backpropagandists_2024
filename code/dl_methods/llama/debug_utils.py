@@ -7,8 +7,9 @@ def debug_misclassifications(dataset, model, tokenizer, label_mapping, dataset_t
     try:
         print(f"\nAnalyzing misclassifications in {dataset_type} dataset...")
         
-        # Determine device
-        device = model.device
+        # Determine device and ensure model is on it
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        model = model.to(device)
         print(f"Model is on device: {device}")
         
         # Prepare data
@@ -40,15 +41,20 @@ def debug_misclassifications(dataset, model, tokenizer, label_mapping, dataset_t
                 return_tensors="pt"
             )
             
-            # Move encodings to same device as model
-            encodings = {k: v.to(device) for k, v in encodings.items()}
+            # Explicitly move input tensors to the same device as model
+            input_ids = encodings['input_ids'].to(device)
+            attention_mask = encodings['attention_mask'].to(device)
             
+            # Forward pass with proper device placement
             with torch.no_grad():
-                outputs = model(**encodings)
+                outputs = model(
+                    input_ids=input_ids,
+                    attention_mask=attention_mask
+                )
                 batch_preds = outputs.logits.argmax(-1)
                 batch_confs = torch.softmax(outputs.logits, dim=-1).max(dim=-1)[0]
                 
-                # Move predictions back to CPU
+                # Move predictions back to CPU for numpy conversion
                 predictions.extend(batch_preds.cpu().numpy())
                 confidences.extend(batch_confs.cpu().numpy())
 

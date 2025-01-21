@@ -1,3 +1,7 @@
+import os
+import sys
+code_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(code_path)
 from transformers import TrainingArguments, Trainer
 import wandb
 import os
@@ -6,9 +10,9 @@ import torch
 import logging
 import traceback
 
-from model import compute_metrics
+from modules.utils import compute_metrics
 
-def train_model(model, train_dataset, val_dataset, output_dir, current_date):
+def train_model(model, train_dataset, val_dataset, output_dir, current_date, datasetname):
     """Train the model in two phases: head pre-training and full model fine-tuning"""
     try:
         # Pre-train classification head
@@ -22,13 +26,13 @@ def train_model(model, train_dataset, val_dataset, output_dir, current_date):
         # Training arguments for head pre-training
         head_training_args = TrainingArguments(
             output_dir=os.path.join(output_dir, "head_pretraining"),
-            run_name=f"llama-head-pretraining-{current_date}",
+            run_name=f"llama-head-pretraining-{datasetname}-{current_date}",
             num_train_epochs=1,
             per_device_train_batch_size=8,
             per_device_eval_batch_size=8,
             learning_rate=1e-3,
             warmup_ratio=0.1,
-            evaluation_strategy="epoch",
+            eval_strategy="epoch",
             save_strategy="no",
             logging_dir=os.path.join(output_dir, "head_logs"),
             logging_steps=10,
@@ -59,13 +63,13 @@ def train_model(model, train_dataset, val_dataset, output_dir, current_date):
         log_dir = os.path.join(output_dir, "logs")
         training_args = TrainingArguments(
             output_dir=output_dir,
-            run_name=f"llama-classification-run-{current_date}",
+            run_name=f"llama-classification-run-{datasetname}-{current_date}",
             num_train_epochs=3,
             per_device_train_batch_size=4,
             per_device_eval_batch_size=4,
             learning_rate=2e-4,
             warmup_ratio=0.03,
-            evaluation_strategy="epoch",
+            eval_strategy="epoch",
             save_strategy="epoch",
             logging_dir=log_dir,
             load_best_model_at_end=True,
