@@ -1,5 +1,6 @@
 import os
 import sys
+
 code_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.append(code_path)
 from transformers import TrainingArguments, Trainer
@@ -12,17 +13,9 @@ import traceback
 
 from modules.utils import compute_metrics
 
-def train_model(model, train_dataset, val_dataset, output_dir, current_date, datasetname):
+def train_model(model, train_dataset, val_dataset, output_dir, current_date, datasetname, collate_fn=None):
     """Train the model in two phases: head pre-training and full model fine-tuning"""
     try:
-        # Pre-train classification head
-        print("\nStarting classification head pre-training...")
-        
-        # Freeze LoRA adapters
-        for name, param in model.named_parameters():
-            if 'lora' in name:
-                param.requires_grad = False
-
         # Training arguments for head pre-training
         head_training_args = TrainingArguments(
             output_dir=os.path.join(output_dir, "head_pretraining"),
@@ -37,7 +30,8 @@ def train_model(model, train_dataset, val_dataset, output_dir, current_date, dat
             logging_dir=os.path.join(output_dir, "head_logs"),
             logging_steps=10,
             remove_unused_columns=False,
-            report_to="wandb"
+            report_to="wandb",
+            dataloader_pin_memory=False  # Disable pin_memory as we handle it in collate_fn
         )
         
         # Initialize trainer for head pre-training
@@ -46,17 +40,13 @@ def train_model(model, train_dataset, val_dataset, output_dir, current_date, dat
             args=head_training_args,
             train_dataset=train_dataset,
             eval_dataset=val_dataset,
-            compute_metrics=compute_metrics
+            compute_metrics=compute_metrics,
+            data_collator=collate_fn
         )
         
         # Train classification head
+        print("\nStarting classification head pre-training...")
         head_trainer.train()
-
-        # Unfreeze LoRA adapters for full training
-        print("\nUnfreezing LoRA adapters for full training...")
-        for name, param in model.named_parameters():
-            if 'lora' in name:
-                param.requires_grad = True
 
         # Training arguments for full model fine-tuning
         print("\nStarting full model fine-tuning...")
@@ -80,7 +70,8 @@ def train_model(model, train_dataset, val_dataset, output_dir, current_date, dat
             gradient_checkpointing=True,
             optim="paged_adamw_8bit",
             remove_unused_columns=False,
-            report_to="wandb"
+            report_to="wandb",
+            dataloader_pin_memory=False  # Disable pin_memory as we handle it in collate_fn
         )
 
         # Initialize trainer for full model fine-tuning
@@ -89,7 +80,8 @@ def train_model(model, train_dataset, val_dataset, output_dir, current_date, dat
             args=training_args,
             train_dataset=train_dataset,
             eval_dataset=val_dataset,
-            compute_metrics=compute_metrics
+            compute_metrics=compute_metrics,
+            data_collator=collate_fn
         )
 
         # Train full model
