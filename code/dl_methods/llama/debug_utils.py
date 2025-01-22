@@ -8,8 +8,7 @@ def debug_misclassifications(dataset, model, tokenizer, label_mapping, dataset_t
         print(f"\nAnalyzing misclassifications in {dataset_type} dataset...")
         
         # Determine device and ensure model is on it
-        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        model = model.to(device)
+        device = next(model.parameters()).device
         print(f"Model is on device: {device}")
         
         # Prepare data
@@ -17,10 +16,10 @@ def debug_misclassifications(dataset, model, tokenizer, label_mapping, dataset_t
             lambda x: ' '.join(x) if isinstance(x, list) else x
         ).tolist()
         
-        true_labels = [
+        true_labels = torch.tensor([
             label_mapping[get_narrative_key(eval(n)[0] if isinstance(n, str) else n[0])]
             for n in dataset['narrative_subnarrative_pairs']
-        ]
+        ]).to(device)
         
         print(f"\nTotal samples to analyze: {len(texts)}")
 
@@ -39,24 +38,22 @@ def debug_misclassifications(dataset, model, tokenizer, label_mapping, dataset_t
                 padding=True, 
                 max_length=512, 
                 return_tensors="pt"
-            )
+            ).to(device)  # Move entire encoding dict to device
             
-            # Explicitly move input tensors to the same device as model
-            input_ids = encodings['input_ids'].to(device)
-            attention_mask = encodings['attention_mask'].to(device)
-            
-            # Forward pass with proper device placement
+            # Forward pass
             with torch.no_grad():
-                outputs = model(
-                    input_ids=input_ids,
-                    attention_mask=attention_mask
-                )
+                outputs = model(**encodings)  # Use unpacking to handle all inputs
                 batch_preds = outputs.logits.argmax(-1)
                 batch_confs = torch.softmax(outputs.logits, dim=-1).max(dim=-1)[0]
                 
-                # Move predictions back to CPU for numpy conversion
-                predictions.extend(batch_preds.cpu().numpy())
-                confidences.extend(batch_confs.cpu().numpy())
+                # Collect predictions and confidences (keep on GPU for now)
+                predictions.append(batch_preds)
+                confidences.append(batch_confs)
+
+        # Concatenate all batches
+        predictions = torch.cat(predictions).cpu().numpy()  # Move to CPU only at the end
+        confidences = torch.cat(confidences).cpu().numpy()
+        true_labels = true_labels.cpu().numpy()
 
         # Track misclassifications
         misclassifications = []

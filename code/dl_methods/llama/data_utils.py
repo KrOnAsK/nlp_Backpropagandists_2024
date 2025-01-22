@@ -4,6 +4,7 @@ from datasets import Dataset
 import pandas as pd
 import json
 import os
+import torch
 
 def get_narrative_key(narrative_dict):
     """Extract key from narrative dictionary for classification"""
@@ -60,22 +61,24 @@ def prepare_data(df, model_name, output_dir):
         tokenizer.pad_token = tokenizer.eos_token
         tokenizer.pad_token_id = tokenizer.eos_token_id
 
-    # Tokenize texts
+    # Tokenize texts - Changed to not return tensors
     print("\nTokenizing texts...")
     train_encodings = tokenizer(
         train_texts, 
         truncation=True, 
         padding=True, 
-        max_length=512
+        max_length=512,
+        return_tensors=None  # Changed this line
     )
     val_encodings = tokenizer(
         val_texts, 
         truncation=True, 
         padding=True, 
-        max_length=512
+        max_length=512,
+        return_tensors=None  # Changed this line
     )
 
-    # Create datasets
+    # Create datasets without converting to tensors yet
     train_dataset = Dataset.from_dict({
         'input_ids': train_encodings['input_ids'],
         'attention_mask': train_encodings['attention_mask'],
@@ -86,5 +89,9 @@ def prepare_data(df, model_name, output_dir):
         'attention_mask': val_encodings['attention_mask'],
         'labels': val_labels
     })
+
+    # Set the format to PyTorch but don't specify device
+    train_dataset.set_format('torch')
+    val_dataset.set_format('torch')
 
     return train_dataset, val_dataset, tokenizer, label_mapping, len(label_mapping)
