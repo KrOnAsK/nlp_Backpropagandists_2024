@@ -186,3 +186,107 @@ def find_classes_with_tp_and_fn_language_check(df):
     ]
     
     return classes_with_tp_fn
+
+def sort_narratives_recall(confusion_matrix, threshold_good=0.4, threshold_bad=0.1):
+    # find narratives with recall > 0.5 as good results and narratives with recall <= 0.2 as bad results
+    good_narratives = []
+    bad_narratives = []
+
+    # Extract recall values and sort by recall
+    recall_values = [(i, confusion_matrix[i][1][1] / (confusion_matrix[i][1][1] + confusion_matrix[i][1][0])) for i in range(len(confusion_matrix)) if confusion_matrix[i][1][1] + confusion_matrix[i][1][0] >= 5]
+    sorted_narratives = sorted(recall_values, key=lambda x: x[1], reverse=True)
+
+    # Assign to good_narratives and bad_narratives arrays
+    for i, recall in sorted_narratives:
+        if recall > threshold_good and len(good_narratives) < 5:
+            good_narratives.append(i)
+        elif recall < threshold_bad and len(bad_narratives) < 5:
+            bad_narratives.append(i)
+        if len(good_narratives) >= 5 and len(bad_narratives) >= 5:
+            break
+
+    return good_narratives, bad_narratives, sorted_narratives
+
+
+def plot_difference_barchart(X, labels, sorted_narratives, label_mapping):
+    """barchart of absolute difference between average vector of narrative and average vector of instances not belonging to it"""
+    diff_vectors = []
+    recall_values = []
+    support_values = []
+    for i, recall in sorted_narratives:
+        data_indices = [j for j, label in enumerate(labels) if label[i] == 1]
+        non_data_indices = [j for j, label in enumerate(labels) if label[i] == 0]
+        X_data = X[data_indices]
+        X_non_data = X[non_data_indices]
+        avg_vector_data = np.asarray(np.mean(X_data, axis=0))
+        avg_vector_non_data = np.asarray(np.mean(X_non_data, axis=0))
+        diff_vector_data = np.linalg.norm(avg_vector_non_data - avg_vector_data)
+        diff_vectors.append(diff_vector_data)
+        recall_values.append(recall)
+        support_values.append(len(data_indices))
+
+    # x tick labels: narratives
+    x_tick_labels = []
+    for idx, _ in sorted_narratives:
+        narrative = list(label_mapping.keys())[list(label_mapping.values()).index(idx)]
+        narrative_dict = eval(narrative)
+        narrative_str = f"{narrative_dict['narrative'][:5]}-{narrative_dict['subnarrative'][:5]}[{idx}]"
+        x_tick_labels.append(narrative_str)
+
+    fig, ax1 = plt.subplots(figsize=(15, 5))
+
+    ax1.bar(x_tick_labels, diff_vectors, color='b', alpha=0.6)
+    ax1.set_xlabel('Narratives')
+    ax1.set_ylabel('Sum of absolute difference', color='b')
+    ax1.tick_params(axis='y', labelcolor='b')
+    ax1.set_xticklabels(x_tick_labels, rotation=45, ha='right')
+
+    ax2 = ax1.twinx()
+    ax2.plot(x_tick_labels, recall_values, color='r', marker='o', linestyle='-', linewidth=2, markersize=5)
+    ax2.set_ylabel('Recall', color='r')
+    ax2.tick_params(axis='y', labelcolor='r')
+
+    ax3 = ax1.twinx()
+    ax3.spines['right'].set_position(('outward', 60))
+    ax3.plot(x_tick_labels, support_values, color='g', marker='x', linestyle='-', linewidth=2, markersize=5)
+    ax3.set_ylabel('Support', color='g')
+    ax3.tick_params(axis='y', labelcolor='g')
+
+    plt.title("Sum of absolute difference between average vector of narrative and average vector of dataset with Recall values and Support")
+    plt.show()
+
+    
+def plot_differences_heatmap(X, labels, label_mapping, vectorizer, narratives=[]):
+    diff_vectors = []
+    for i in narratives:
+        data_indices = [j for j, label in enumerate(labels) if label[i] == 1]
+        non_data_indices = [j for j, label in enumerate(labels) if label[i] == 0]
+        X_data = X[data_indices]
+        X_non_data = X[non_data_indices]
+        avg_vector_data = np.asarray(np.mean(X_data, axis=0))
+        avg_vector_non_data = np.asarray(np.mean(X_non_data, axis=0))
+        diff_vector_data = abs(avg_vector_non_data - avg_vector_data)
+        diff_vectors.append(diff_vector_data)
+
+    diff_vector_combined = np.concatenate(diff_vectors, axis=0)
+
+    # Get the 100 most important words without sorting
+    feature_names = vectorizer.get_feature_names_out()
+    importance_indices = np.argsort(np.sum(diff_vector_combined, axis=0))[-100:]
+    importance_indices = sorted(importance_indices)  # Keep the original order
+    diff_vector_combined = diff_vector_combined[:, importance_indices]
+    x_tick_labels = feature_names[importance_indices]
+
+    # y tick labels left: narratives
+    y_tick_labels = []
+    for idx in narratives:
+        narrative = list(label_mapping.keys())[list(label_mapping.values()).index(idx)]
+        narrative_dict = eval(narrative)
+        narrative_str = f"{narrative_dict['narrative'][:5]}-{narrative_dict['subnarrative'][:5]}[{idx}]"
+        y_tick_labels.append(narrative_str)
+
+    plt.figure(figsize=(20, 5))
+    ax = sns.heatmap(diff_vector_combined, cmap='coolwarm', center=0, xticklabels=x_tick_labels, yticklabels=y_tick_labels)
+    ax.yaxis.set_ticks_position('left')
+    plt.title("Heatmap of 100 most important words for selected narratives")
+    plt.show()
