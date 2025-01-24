@@ -1,19 +1,21 @@
 pandas
 pymupdf
+matplotlib
+numpy
 nltk
 requests
 stanza
 torch
 scipy
 seaborn
-
+fitz
 tqdm
 scikit-learn
-
+huggingface-hub
 conllu  # for CoNLL-U parsing
 transformers  # for BERT
-peft 
-datasets 
+peft
+datasets
 wandb
 accelerate
 sentencepiece
