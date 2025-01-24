@@ -98,17 +98,6 @@ def show_confusion_matrix(df, confusion_mtx): ### TRACK CHANGE added df
     plt.tight_layout()
     plt.show()
 
-def show_accumulated_confusion_matrix(confusion_mtx):
-    """
-    Show a matrix of accumulated confusion matrices.
-    
-    Args:
-        confusion_mtx: Multilabel confusion matrix.
-    """
-
-    # Sum all confusion matrices
-    accumulated_confusion = np.sum(confusion_mtx, axis=0)
-
 # Function to extract true positives and false negatives for specific class for qualitative analysis
 def extract_confusion_data(df, target_label):
     # Initialize lists to store results
@@ -207,7 +196,6 @@ def sort_narratives_recall(confusion_matrix, threshold_good=0.4, threshold_bad=0
 
     return good_narratives, bad_narratives, sorted_narratives
 
-
 def plot_difference_barchart(X, labels, sorted_narratives, label_mapping):
     """barchart of absolute difference between average vector of narrative and average vector of instances not belonging to it"""
     diff_vectors = []
@@ -254,7 +242,6 @@ def plot_difference_barchart(X, labels, sorted_narratives, label_mapping):
 
     plt.title("Sum of absolute difference between average vector of narrative and average vector of dataset with Recall values and Support")
     plt.show()
-
     
 def plot_differences_heatmap(X, labels, label_mapping, vectorizer, narratives=[]):
     diff_vectors = []
