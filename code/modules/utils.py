@@ -43,7 +43,7 @@ def compute_metrics(pred):
     """
     labels = pred.label_ids
     preds = pred.predictions.argmax(-1)
-    precision, recall, f1, _ = precision_recall_fscore_support(labels, preds, average="weighted",zero_division=1)
+    precision, recall, f1, _ = precision_recall_fscore_support(labels, preds, average="weighted",zero_division=0)
     acc = accuracy_score(labels, preds)
 
     # Computing confusion matrix and metrics per class
