@@ -95,3 +95,39 @@ def prepare_data(df, model_name, output_dir):
     val_dataset.set_format('torch')
 
     return train_dataset, val_dataset, tokenizer, label_mapping, len(label_mapping)
+
+# utils.py
+import torch
+import pandas as pd 
+
+def ensure_model_on_device(model):
+    """Ensure model is on the correct device"""
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    model = model.to(device)
+    return model, device
+
+def prepare_data_for_model(batch_texts, tokenizer, device):
+    """Prepare data for model input"""
+    encodings = tokenizer(
+        batch_texts,
+        truncation=True,
+        padding=True,
+        max_length=512,
+        return_tensors="pt"
+    )
+    
+    # Move entire encoding dict to device
+    encodings = {k: v.to(device) for k, v in encodings.items()}
+    return encodings
+
+def get_predictions_batch(model, batch_texts, tokenizer, device):
+    """Get predictions for a batch of texts"""
+    model.eval()  # Ensure model is in eval mode
+    encodings = prepare_data_for_model(batch_texts, tokenizer, device)
+    
+    with torch.no_grad():
+        outputs = model(**encodings)
+        batch_preds = outputs.logits.argmax(-1)
+        batch_confs = torch.softmax(outputs.logits, dim=-1).max(dim=-1)[0]
+    
+    return batch_preds, batch_confs

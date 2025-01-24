@@ -33,12 +33,14 @@ def debug_misclassifications(dataset, model, tokenizer, label_mapping, dataset_t
             
             # Tokenize batch
             encodings = tokenizer(
-                batch_texts, 
-                truncation=True, 
-                padding=True, 
-                max_length=512, 
-                return_tensors="pt"
-            ).to(device)  # Move entire encoding dict to device
+            batch_texts, 
+            truncation=True, 
+            padding=True, 
+            max_length=512, 
+            return_tensors="pt"
+            )
+            # Explicitly move each tensor to the device
+            encodings = {k: v.to(device) for k, v in encodings.items()}
             
             # Forward pass
             with torch.no_grad():
