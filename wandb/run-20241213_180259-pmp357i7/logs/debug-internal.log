@@ -1,3 +1,0 @@
-{"time":"2024-12-13T18:02:59.4824596+01:00","level":"INFO","msg":"using version","core version":"0.19.1"}
-{"time":"2024-12-13T18:02:59.4824596+01:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\leonb\\OneDrive\\Dokumente\\Studium\\Master\\Sem1\\NLP and InfExt\\practical\\nlp_Backpropagandists_2024\\wandb\\run-20241213_180259-pmp357i7\\logs\\debug-core.log"}
-{"time":"2024-12-13T18:02:59.4829829+01:00","level":"ERROR+4","msg":"stream_init: failed to fetch credentials: couldn't get API key: settings: failed to get API key from netrc: open C:\\Users\\leonb\\_netrc: The system cannot find the file specified."}

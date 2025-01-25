@@ -1,8 +1,0 @@
-2024-12-11 17:08:10,076 - dl_methods.transformer - INFO - Training set size: 158, Validation set size: 40
-2024-12-11 17:08:10,081 - dl_methods.transformer - INFO - Created mapping for 64 unique narratives
-2024-12-11 17:08:10,083 - dl_methods.transformer - INFO - Number of unique labels in mapping: 64
-2024-12-11 17:08:10,083 - dl_methods.transformer - INFO - Sample text: esg action unity food partner green ark recycle plastic waste karachi unity food continue showcase s
-2024-12-11 17:08:10,086 - dl_methods.transformer - INFO - Sample label: 47
-2024-12-11 17:08:10,093 - dl_methods.transformer - ERROR - Error in prepare_data: Unknown narrative: {'narrative': 'Downplaying climate change', 'subnarrative': 'Downplaying climate change: Ice is not melting'}
-2024-12-11 17:08:10,095 - dl_methods.transformer - ERROR - Sample narrative_subnarrative_pairs: [{'narrative': 'Other', 'subnarrative': 'Other'}]
-2024-12-11 17:08:10,096 - dl_methods.transformer - ERROR - Error in BERT training: Unknown narrative: {'narrative': 'Downplaying climate change', 'subnarrative': 'Downplaying climate change: Ice is not melting'}
