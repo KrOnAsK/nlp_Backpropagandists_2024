@@ -8,6 +8,16 @@ import numpy as np
 from modules.modules_svm.preprocessing_svm import create_label_mapping
 
 def extract_metrics(training_results):
+    """
+    Extract the precision, recall, and F1-score from the training results.
+
+    Args:
+        training_results: Dictionary containing the training results.
+
+    Returns:
+        dict: Dictionary containing the metrics.
+    """
+
     metrics = {
         'macro avg': training_results['macro avg'],
         'weighted avg': training_results['weighted avg']
@@ -16,7 +26,7 @@ def extract_metrics(training_results):
 
 def create_metrics_dataframe(datasets, methods, results):
     """
-    Create a DataFrame to hold all metrics for given datasets and methods.
+    Create a DataFrame to hold the metrics for specified datasets and methods, which facilitates comparison.
     
     Args:
         datasets: List of dataset names.
@@ -57,14 +67,20 @@ def create_metrics_dataframe(datasets, methods, results):
     ).set_properties(**{'text-align': 'center'}).set_caption("Performance Metrics for Each Method and Dataset")
     
 def show_class_occurrences(counts_df):
-    # Display the DataFrame as a table
-        display(counts_df.style.set_table_styles(
-            [{'selector': 'thead th', 'props': [('background-color', '#f7f7f9'), ('color', 'black')]}]
-        ).set_properties(**{'text-align': 'center'}).set_caption("Table of Class Occurrences in Train, Test, and Predictions"))
-
-def show_confusion_matrix(df, confusion_mtx): ### TRACK CHANGE added df
     """
-    Show confusion matrix for SVM model.
+    Show counts_df as a styled table. Counts_df should contain the class occurrences in train, test, and predictions.
+
+    Args:
+        counts_df: DataFrame containing the class occurrences
+    """
+
+    display(counts_df.style.set_table_styles(
+        [{'selector': 'thead th', 'props': [('background-color', '#f7f7f9'), ('color', 'black')]}]
+    ).set_properties(**{'text-align': 'center'}).set_caption("Table of Class Occurrences in Train, Test, and Predictions"))
+
+def show_confusion_matrix(df, confusion_mtx):
+    """
+    Visualize the confusion matrix for each narrative-subnarrative pair.
     
     Args:
         confusion_mtx: Multilabel confusion matrix.
@@ -197,7 +213,15 @@ def sort_narratives_recall(confusion_matrix, threshold_good=0.4, threshold_bad=0
     return good_narratives, bad_narratives, sorted_narratives
 
 def plot_difference_barchart(X, labels, sorted_narratives, label_mapping):
-    """barchart of absolute difference between average vector of narrative and average vector of instances not belonging to it"""
+    """
+    Plot barchart of absolute difference between average vector of narrative and average vector of instances not belonging to it.
+    
+    Parameters:
+        X (np.array): Feature matrix.
+        labels (np.array): Label matrix.
+        sorted_narratives (list): List of tuples containing narrative index and recall value.
+        label_mapping (dict): Mapping of narrative index to narrative string.
+    """
     diff_vectors = []
     recall_values = []
     support_values = []
@@ -240,10 +264,20 @@ def plot_difference_barchart(X, labels, sorted_narratives, label_mapping):
     ax3.set_ylabel('Support', color='g')
     ax3.tick_params(axis='y', labelcolor='g')
 
-    plt.title("Sum of absolute difference between average vector of narrative and average vector of dataset with Recall values and Support")
+    plt.title("Difference between (avg) narrative vector and (avg) vector over whole dataset.")
     plt.show()
     
 def plot_differences_heatmap(X, labels, label_mapping, vectorizer, narratives=[]):
+    """
+    Plot heatmap of the 100 most important words for selected narratives.
+
+    Parameters:
+        X (np.array): Feature matrix.
+        labels (np.array): Label matrix.
+        label_mapping (dict): Mapping of narrative index to narrative string.
+        vectorizer (TfidfVectorizer): TfidfVectorizer object.
+        narratives (list): List of narrative indices to plot heatmap for.
+    """
     diff_vectors = []
     for i in narratives:
         data_indices = [j for j, label in enumerate(labels) if label[i] == 1]
@@ -275,5 +309,5 @@ def plot_differences_heatmap(X, labels, label_mapping, vectorizer, narratives=[]
     plt.figure(figsize=(20, 5))
     ax = sns.heatmap(diff_vector_combined, cmap='coolwarm', center=0, xticklabels=x_tick_labels, yticklabels=y_tick_labels)
     ax.yaxis.set_ticks_position('left')
-    plt.title("Heatmap of 100 most important words for selected narratives")
+    plt.title("Heatmap of 100 most important words for narrative(s): " + ", ".join(y_tick_labels))
     plt.show()
