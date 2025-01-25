@@ -68,14 +68,14 @@ def prepare_data(df, model_name, output_dir):
         truncation=True, 
         padding=True, 
         max_length=512,
-        return_tensors=None  # Changed this line
+        return_tensors=None  
     )
     val_encodings = tokenizer(
         val_texts, 
         truncation=True, 
         padding=True, 
         max_length=512,
-        return_tensors=None  # Changed this line
+        return_tensors=None  
     )
 
     # Create datasets without converting to tensors yet
