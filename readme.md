@@ -61,7 +61,7 @@ You can use the provided VS Code workspace configuration for an enhanced develop
     - (CoNLL-U conversion and logging utilities)
   - Subfolder:
     - `modules_svm`: Modules specific to the SVM method
-#### non_dl_methods contains:
+#### non_dl_methods:
 - **`keyword_matching`**:
   - A simple approach using rudimentary keyword matching. 
   - Counts the most used words in each narrative and matches them to the test set.
