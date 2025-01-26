@@ -109,13 +109,6 @@ You can use the provided VS Code workspace configuration for an enhanced develop
 
 **PLACEHOLDER**: MANAGEMENT SUMMARY + PRESENTATION
 
-
-## Outlook
-Status 15.12.2024: The project will be continued mainly by adjusting the existing solutions to better address the specific challenges of the problem, for example:
-- Find ways to deal with the severe underrepresentation of many classes
-- Use additional languages for training
-- Identifying a model that deals with these challenges better than the currently used models
-
 ## License
 This project is licensed under the MIT License.
 
