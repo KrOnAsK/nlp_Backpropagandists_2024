@@ -31,7 +31,7 @@ Conforming to best practices in producing code, modularisation was used and PEP8
 
 2. Install the required Python packages:
     ```sh
-    pip install -r code/requirements.txt
+    pip install -r requirements.txt
     ```
 
 ## Usage 
