@@ -88,6 +88,7 @@ def train_svm(df, base_path, vectorizer="tf-idf", use_cached_embeddings=False, e
         # Evaluate model
         y_pred = model.predict(X_test)
         
+        ## The following code for creating df_with_predictions is for qualitative analysis funcitonality
         # Reverse the label mapping for easier lookup
         reverse_label_mapping = {v: eval(k) for k, v in label_mapping.items()}
         

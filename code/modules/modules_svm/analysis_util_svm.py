@@ -52,16 +52,12 @@ def create_metrics_dataframe(datasets, methods, results):
                     'F1-Score': round(values['f1-score'], 3)
                 }])], ignore_index=True)
 
-    # Pivot the DataFrame for better visualization
+    # Pivot, format and highlight some aspects in the DataFrame for better visualization
     metrics_pivot = metrics_df.pivot_table(index=['Method', 'Dataset'], columns='Metric', values=['Precision', 'Recall', 'F1-Score'])
-
-    # Format the DataFrame to show only three digits
     metrics_pivot = metrics_pivot.applymap(lambda x: '{:.3f}'.format(x))
-
-    # Highlight the weighted avg columns
     highlight = lambda x: ['border-left: 4px solid darkblue; border-right: 4px solid darkblue' if 'weighted avg' in col else '' for col in x.index]
 
-    # Display the table
+    # Display the tablea
     return metrics_pivot.style.apply(highlight, axis=1).set_table_styles(
         [{'selector': 'thead th', 'props': [('background-color', '#f7f7f9'), ('color', 'black')]}]
     ).set_properties(**{'text-align': 'center'}).set_caption("Performance Metrics for Each Method and Dataset")
@@ -116,30 +112,26 @@ def show_confusion_matrix(df, confusion_mtx):
 
 # Function to extract true positives and false negatives for specific class for qualitative analysis
 def extract_confusion_data(df, target_label):
-    # Initialize lists to store results
     false_negatives = [] 
     true_positives = []  
     
-    # Iterate over the DataFrame rows
     for index, row in df.iterrows():
-        true_labels = row['true_labels']  # Extract true labels
-        predicted_labels = row['predicted_labels']  # Extract predicted labels
-        
+        true_labels = row['true_labels'] 
+        predicted_labels = row['predicted_labels'] 
         # Extract the indices of true and predicted labels matching the target
         true_indices = [
             label[1] for label in true_labels
-            if label[1] == target_label  # Match target narrative and subnarrative
+            if label[1] == target_label  
         ]
         predicted_indices = [
             label[1] for label in predicted_labels
-            if label[1] == target_label  # Match target narrative and subnarrative
+            if label[1] == target_label  
         ]
         
-        # Determine false negatives (true label exists, but no matching prediction)
+        # Determine false negatives and true positives
         if true_indices and not any(idx in true_indices for idx in predicted_indices):
             false_negatives.append(row)
         
-        # Determine true positives (matching true and predicted labels)
         if any(idx in true_indices for idx in predicted_indices):
             true_positives.append(row)
     
@@ -162,24 +154,20 @@ def find_classes_with_tp_and_fn_language_check(df):
     
     # Iterate over all rows in the DataFrame
     for index, row in df.iterrows():
-        true_labels = row['true_labels']  # Extract true labels
-        predicted_labels = row['predicted_labels']  # Extract predicted labels
-        language = row['language']  # Extract language
-
-        # Skip rows that are not in "EN"
+        true_labels = row['true_labels']  
+        predicted_labels = row['predicted_labels']  
+        language = row['language'] 
         if language != "EN":
             continue
         
-        # Get all unique class indices in true and predicted labels
+        # Get true positives and false negatives for each class index
         true_indices = [label[1] for label in true_labels]
         predicted_indices = [label[1] for label in predicted_labels]
         
-        # Check for true positives (class exists in both true and predicted labels)
         for idx in true_indices:
             if idx in predicted_indices:
                 class_stats[idx]["tp"] += 1
-        
-        # Check for false negatives (class exists in true but not in predicted labels)
+    
         for idx in true_indices:
             if idx not in predicted_indices:
                 class_stats[idx]["fn"] += 1

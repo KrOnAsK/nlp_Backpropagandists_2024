@@ -18,7 +18,7 @@ def create_label_mapping(all_narratives):
     unique_narratives = set()
     for narratives in all_narratives:
         for narrative in narratives:
-            narrative_str = str(narrative)  # Convert dict to string
+            narrative_str = str(narrative) 
             unique_narratives.add(narrative_str)
     
     # Create mapping
