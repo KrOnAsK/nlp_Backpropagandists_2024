@@ -13,7 +13,16 @@ import traceback
 
 from modules.utils import compute_metrics
 
-def train_model(model, train_dataset, val_dataset, output_dir, current_date, datasetname, collate_fn=None):
+
+def train_model(
+    model,
+    train_dataset,
+    val_dataset,
+    output_dir,
+    current_date,
+    datasetname,
+    collate_fn=None,
+):
     """Train the model in two phases: head pre-training and full model fine-tuning"""
     try:
         # Training arguments for head pre-training
@@ -31,9 +40,9 @@ def train_model(model, train_dataset, val_dataset, output_dir, current_date, dat
             logging_steps=10,
             remove_unused_columns=False,
             report_to="wandb",
-            dataloader_pin_memory=False  # Disable pin_memory as we handle it in collate_fn
+            dataloader_pin_memory=False,  # Disable pin_memory as we handle it in collate_fn
         )
-        
+
         # Initialize trainer for head pre-training
         head_trainer = Trainer(
             model=model,
@@ -41,9 +50,9 @@ def train_model(model, train_dataset, val_dataset, output_dir, current_date, dat
             train_dataset=train_dataset,
             eval_dataset=val_dataset,
             compute_metrics=compute_metrics,
-            data_collator=collate_fn
+            data_collator=collate_fn,
         )
-        
+
         # Train classification head
         print("\nStarting classification head pre-training...")
         head_trainer.train()
@@ -63,7 +72,7 @@ def train_model(model, train_dataset, val_dataset, output_dir, current_date, dat
             save_strategy="epoch",
             logging_dir=log_dir,
             load_best_model_at_end=True,
-            metric_for_best_model='eval_loss',
+            metric_for_best_model="eval_loss",
             greater_is_better=False,
             logging_steps=10,
             gradient_accumulation_steps=2,
@@ -71,7 +80,7 @@ def train_model(model, train_dataset, val_dataset, output_dir, current_date, dat
             optim="paged_adamw_8bit",
             remove_unused_columns=False,
             report_to="wandb",
-            dataloader_pin_memory=False  # Disable pin_memory as we handle it in collate_fn
+            dataloader_pin_memory=False,  # Disable pin_memory as we handle it in collate_fn
         )
 
         # Initialize trainer for full model fine-tuning
@@ -81,7 +90,7 @@ def train_model(model, train_dataset, val_dataset, output_dir, current_date, dat
             train_dataset=train_dataset,
             eval_dataset=val_dataset,
             compute_metrics=compute_metrics,
-            data_collator=collate_fn
+            data_collator=collate_fn,
         )
 
         # Train full model
