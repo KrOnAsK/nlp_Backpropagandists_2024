@@ -14,6 +14,7 @@ This repository contains code and data for the Natural Language Processing and I
     - Again: Qualitative analyis (Performed for BERT and SVM)
 - Challenging Compare the use of masked language models, such as BERT, and autoregressive models, such as LLAMA, for the task of analysis of narratives in online news.
     - Method comparison is done in the management report
+Conforming to best practices in producing code, modularisation was used and PEP8 guidelines applied.
 
 ## Prerequisites
 - Python 3.x
